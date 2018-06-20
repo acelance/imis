@@ -3,67 +3,58 @@ package com.iotch.entity;
 import java.sql.Timestamp;
 
 public class UserInfo {
-    private String userCode;//用户编码
-    private String userPassword;//用户密码
-    private String userName;//用户名
-    private String userID;//用户ID
-    private String userSex;//性别
-    private Timestamp userBirthDate;//生日
-    private Timestamp userRegDate;//注册日期
-    private String userAddr;//地址
-    private String userPostcode;//邮编
-    private String userTel;//电话号码
-    private String userPhone;//手机号码
-    private String userCompany;//所属公司
-    private String userStatus;//用户状态(0:待审核,1:审核通过,2:禁用)
-    private String userNote;//用户备注
-    private String roleAssignMenu;//菜单(权限)是否通过角色分配:0不是,1是;默认值是1
-    private RoleInfo userRole;//角色编码
-    private RegionInfo userRegion;//地区编码
+    private String userCode;
+    private String userName;
+    private String userPassword;
+    private String userPhone;
+    private RoleInfo roleInfo;
+    private Timestamp userCreateTime;
+    private Timestamp lastEditTime;
+    private OperatorsInfo operatorsInfo;
+    private String userStatus;
+    private String userAddr;
+    private String userPostCode;
+    private String userCompany;
+    private String userTel;
+    private String userNote;
 
     public UserInfo() {
     }
 
-    public UserInfo(String userCode, String userPassword, String userName, String userID, String userSex, Timestamp userBirthDate, Timestamp userRegDate, String userAddr, String userPostcode, String userTel, String userPhone, String userCompany, String userStatus, String userNote, String roleAssignMenu, RoleInfo userRole, RegionInfo userRegion) {
+    public UserInfo(String userCode, String userName, String userPassword, String userPhone, RoleInfo roleInfo, Timestamp userCreateTime, Timestamp lastEditTime, OperatorsInfo operatorsInfo, String userStatus, String userAddr, String userPostCode, String userCompany, String userTel, String userNote) {
         this.userCode = userCode;
-        this.userPassword = userPassword;
         this.userName = userName;
-        this.userID = userID;
-        this.userSex = userSex;
-        this.userBirthDate = userBirthDate;
-        this.userRegDate = userRegDate;
-        this.userAddr = userAddr;
-        this.userPostcode = userPostcode;
-        this.userTel = userTel;
+        this.userPassword = userPassword;
         this.userPhone = userPhone;
-        this.userCompany = userCompany;
+        this.roleInfo = roleInfo;
+        this.userCreateTime = userCreateTime;
+        this.lastEditTime = lastEditTime;
+        this.operatorsInfo = operatorsInfo;
         this.userStatus = userStatus;
+        this.userAddr = userAddr;
+        this.userPostCode = userPostCode;
+        this.userCompany = userCompany;
+        this.userTel = userTel;
         this.userNote = userNote;
-        this.roleAssignMenu = roleAssignMenu;
-        this.userRole = userRole;
-        this.userRegion = userRegion;
     }
 
     @Override
     public String toString() {
         return "UserInfo{" +
                 "userCode='" + userCode + '\'' +
-                ", userPassword='" + userPassword + '\'' +
                 ", userName='" + userName + '\'' +
-                ", userID='" + userID + '\'' +
-                ", userSex='" + userSex + '\'' +
-                ", userBirthDate=" + userBirthDate +
-                ", userRegDate=" + userRegDate +
-                ", userAddr='" + userAddr + '\'' +
-                ", userPostcode='" + userPostcode + '\'' +
-                ", userTel='" + userTel + '\'' +
+                ", userPassword='" + userPassword + '\'' +
                 ", userPhone='" + userPhone + '\'' +
-                ", userCompany='" + userCompany + '\'' +
+                ", roleInfo=" + roleInfo +
+                ", userCreateTime=" + userCreateTime +
+                ", lastEditTime=" + lastEditTime +
+                ", operatorsInfo=" + operatorsInfo +
                 ", userStatus='" + userStatus + '\'' +
+                ", userAddr='" + userAddr + '\'' +
+                ", userPostCode='" + userPostCode + '\'' +
+                ", userCompany='" + userCompany + '\'' +
+                ", userTel='" + userTel + '\'' +
                 ", userNote='" + userNote + '\'' +
-                ", roleAssignMenu='" + roleAssignMenu + '\'' +
-                ", userRole=" + userRole +
-                ", userRegion=" + userRegion +
                 '}';
     }
 
@@ -75,14 +66,6 @@ public class UserInfo {
         this.userCode = userCode;
     }
 
-    public String getUserPassword() {
-        return userPassword;
-    }
-
-    public void setUserPassword(String userPassword) {
-        this.userPassword = userPassword;
-    }
-
     public String getUserName() {
         return userName;
     }
@@ -91,60 +74,12 @@ public class UserInfo {
         this.userName = userName;
     }
 
-    public String getUserID() {
-        return userID;
+    public String getUserPassword() {
+        return userPassword;
     }
 
-    public void setUserID(String userID) {
-        this.userID = userID;
-    }
-
-    public String getUserSex() {
-        return userSex;
-    }
-
-    public void setUserSex(String userSex) {
-        this.userSex = userSex;
-    }
-
-    public Timestamp getUserBirthDate() {
-        return userBirthDate;
-    }
-
-    public void setUserBirthDate(Timestamp userBirthDate) {
-        this.userBirthDate = userBirthDate;
-    }
-
-    public Timestamp getUserRegDate() {
-        return userRegDate;
-    }
-
-    public void setUserRegDate(Timestamp userRegDate) {
-        this.userRegDate = userRegDate;
-    }
-
-    public String getUserAddr() {
-        return userAddr;
-    }
-
-    public void setUserAddr(String userAddr) {
-        this.userAddr = userAddr;
-    }
-
-    public String getUserPostcode() {
-        return userPostcode;
-    }
-
-    public void setUserPostcode(String userPostcode) {
-        this.userPostcode = userPostcode;
-    }
-
-    public String getUserTel() {
-        return userTel;
-    }
-
-    public void setUserTel(String userTel) {
-        this.userTel = userTel;
+    public void setUserPassword(String userPassword) {
+        this.userPassword = userPassword;
     }
 
     public String getUserPhone() {
@@ -155,12 +90,36 @@ public class UserInfo {
         this.userPhone = userPhone;
     }
 
-    public String getUserCompany() {
-        return userCompany;
+    public RoleInfo getRoleInfo() {
+        return roleInfo;
     }
 
-    public void setUserCompany(String userCompany) {
-        this.userCompany = userCompany;
+    public void setRoleInfo(RoleInfo roleInfo) {
+        this.roleInfo = roleInfo;
+    }
+
+    public Timestamp getUserCreateTime() {
+        return userCreateTime;
+    }
+
+    public void setUserCreateTime(Timestamp userCreateTime) {
+        this.userCreateTime = userCreateTime;
+    }
+
+    public Timestamp getLastEditTime() {
+        return lastEditTime;
+    }
+
+    public void setLastEditTime(Timestamp lastEditTime) {
+        this.lastEditTime = lastEditTime;
+    }
+
+    public OperatorsInfo getOperatorsInfo() {
+        return operatorsInfo;
+    }
+
+    public void setOperatorsInfo(OperatorsInfo operatorsInfo) {
+        this.operatorsInfo = operatorsInfo;
     }
 
     public String getUserStatus() {
@@ -171,35 +130,43 @@ public class UserInfo {
         this.userStatus = userStatus;
     }
 
+    public String getUserAddr() {
+        return userAddr;
+    }
+
+    public void setUserAddr(String userAddr) {
+        this.userAddr = userAddr;
+    }
+
+    public String getUserPostCode() {
+        return userPostCode;
+    }
+
+    public void setUserPostCode(String userPostCode) {
+        this.userPostCode = userPostCode;
+    }
+
+    public String getUserCompany() {
+        return userCompany;
+    }
+
+    public void setUserCompany(String userCompany) {
+        this.userCompany = userCompany;
+    }
+
+    public String getUserTel() {
+        return userTel;
+    }
+
+    public void setUserTel(String userTel) {
+        this.userTel = userTel;
+    }
+
     public String getUserNote() {
         return userNote;
     }
 
     public void setUserNote(String userNote) {
         this.userNote = userNote;
-    }
-
-    public String getRoleAssignMenu() {
-        return roleAssignMenu;
-    }
-
-    public void setRoleAssignMenu(String roleAssignMenu) {
-        this.roleAssignMenu = roleAssignMenu;
-    }
-
-    public RoleInfo getUserRole() {
-        return userRole;
-    }
-
-    public void setUserRole(RoleInfo userRole) {
-        this.userRole = userRole;
-    }
-
-    public RegionInfo getUserRegion() {
-        return userRegion;
-    }
-
-    public void setUserRegion(RegionInfo userRegion) {
-        this.userRegion = userRegion;
     }
 }

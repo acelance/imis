@@ -1,21 +1,29 @@
 package com.iotch.entity;
 
+import java.sql.Timestamp;
+
 public class RoleInfo {
     private String roleCode;//角色编码
     private String roleName;//角色名称
-    private String roleNote;//角色备注
-    private String roleLevel;//角色等级
-    private String superiorLevel;//上级角色等级
+    private String roleDesc;//角色备注
+    private String superiorRole;//上级角色等级编码
+    private String roleStatus;//角色状态
+    private Timestamp createTime;//创建时间
+    private Timestamp lastEditTime;//最后编辑时间
+    private String roleType;//角色类型(0:超级管理员,1:运行商类,2:员工类)
 
     public RoleInfo() {
     }
 
-    public RoleInfo(String roleCode, String roleName, String roleNote, String roleLevel, String superiorLevel) {
+    public RoleInfo(String roleCode, String roleName, String roleDesc, String superiorRole, String roleStatus, Timestamp createTime, Timestamp lastEditTime, String roleType) {
         this.roleCode = roleCode;
         this.roleName = roleName;
-        this.roleNote = roleNote;
-        this.roleLevel = roleLevel;
-        this.superiorLevel = superiorLevel;
+        this.roleDesc = roleDesc;
+        this.superiorRole = superiorRole;
+        this.roleStatus = roleStatus;
+        this.createTime = createTime;
+        this.lastEditTime = lastEditTime;
+        this.roleType = roleType;
     }
 
     @Override
@@ -23,9 +31,12 @@ public class RoleInfo {
         return "RoleInfo{" +
                 "roleCode='" + roleCode + '\'' +
                 ", roleName='" + roleName + '\'' +
-                ", roleNote='" + roleNote + '\'' +
-                ", roleLevel='" + roleLevel + '\'' +
-                ", superiorLevel='" + superiorLevel + '\'' +
+                ", roleDesc='" + roleDesc + '\'' +
+                ", superiorRole='" + superiorRole + '\'' +
+                ", roleStatus='" + roleStatus + '\'' +
+                ", createTime=" + createTime +
+                ", lastEditTime=" + lastEditTime +
+                ", roleType='" + roleType + '\'' +
                 '}';
     }
 
@@ -45,27 +56,51 @@ public class RoleInfo {
         this.roleName = roleName;
     }
 
-    public String getRoleNote() {
-        return roleNote;
+    public String getRoleDesc() {
+        return roleDesc;
     }
 
-    public void setRoleNote(String roleNote) {
-        this.roleNote = roleNote;
+    public void setRoleDesc(String roleDesc) {
+        this.roleDesc = roleDesc;
     }
 
-    public String getRoleLevel() {
-        return roleLevel;
+    public String getSuperiorRole() {
+        return superiorRole;
     }
 
-    public void setRoleLevel(String roleLevel) {
-        this.roleLevel = roleLevel;
+    public void setSuperiorRole(String superiorRole) {
+        this.superiorRole = superiorRole;
     }
 
-    public String getSuperiorLevel() {
-        return superiorLevel;
+    public String getRoleStatus() {
+        return roleStatus;
     }
 
-    public void setSuperiorLevel(String superiorLevel) {
-        this.superiorLevel = superiorLevel;
+    public void setRoleStatus(String roleStatus) {
+        this.roleStatus = roleStatus;
+    }
+
+    public Timestamp getCreateTime() {
+        return createTime;
+    }
+
+    public void setCreateTime(Timestamp createTime) {
+        this.createTime = createTime;
+    }
+
+    public Timestamp getLastEditTime() {
+        return lastEditTime;
+    }
+
+    public void setLastEditTime(Timestamp lastEditTime) {
+        this.lastEditTime = lastEditTime;
+    }
+
+    public String getRoleType() {
+        return roleType;
+    }
+
+    public void setRoleType(String roleType) {
+        this.roleType = roleType;
     }
 }

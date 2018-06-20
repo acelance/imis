@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <!-- Meta, title, CSS, favicons, etc. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>欢迎使用管理系统</title>
+    <LINK REL="SHORTCUT ICON" HREF="../../resource/images/iotch-logo.png" />
+    <!-- Bootstrap -->
+    <link href="../../resource/vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="../../resource/vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <!-- NProgress -->
+    <link href="../../resource/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <!-- iCheck -->
+    <link href="../../resource/vendors/iCheck/skins/flat/green.css" rel="stylesheet">
+    <!-- Switchery -->
+    <link href="../../resource/vendors/switchery/dist/switchery.min.css" rel="stylesheet">
+    <!-- Datatables -->
+    <link href="../../resource/vendors/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="../../resource/vendors/datatables.net-buttons-bs/css/buttons.bootstrap.min.css" rel="stylesheet">
+    <link href="../../resource/vendors/datatables.net-fixedheader-bs/css/fixedHeader.bootstrap.min.css" rel="stylesheet">
+    <link href="../../resource/vendors/datatables.net-responsive-bs/css/responsive.bootstrap.min.css" rel="stylesheet">
+    <link href="../../resource/vendors/datatables.net-scroller-bs/css/scroller.bootstrap.min.css" rel="stylesheet">
+
+    <!-- bootstrap-progressbar -->
+    <link href="../../resource/vendors/bootstrap-progressbar/css/bootstrap-progressbar-3.3.4.min.css" rel="stylesheet">
+
+    <!-- PNotify -->
+    <link href="../../resource/vendors/pnotify/dist/pnotify.css" rel="stylesheet">
+    <link href="../../resource/vendors/pnotify/dist/pnotify.buttons.css" rel="stylesheet">
+    <link href="../../resource/vendors/pnotify/dist/pnotify.nonblock.css" rel="stylesheet">
+
+    <!-- Custom Theme Style -->
+    <link href="../../resource/build/css/custom.min.css" rel="stylesheet"><!--使表格定型的重要样式-->
+
+    <!-- jQuery -->
+    <script src="../../resource/vendors/jquery/dist/jquery.min.js"></script>
+    <!--左边树状菜单jquery.js在前,bootstrap.min.js在后,必须同步加载-->
+    <script src="../../resource/myfile/js/menutree4bootstrap.js"></script>
+    <script>
+        $(function () {
+
+            $.ajax({
+                type:"POST",
+                url:"/menuInfo/menutree/load",
+                dataType:"json",
+                async: false,//必须同步加载
+                success:function(jsonMenus){
+                    //var jsonMenus = JSON.parse(result);
+                    var tile=$("<h3></h3>").text("你好,管理员");
+                    $("#myMenu").append(tile);
+                    var ul_main = showSubMenus(jsonMenus);
+                    $("#myMenu").append(ul_main)
+                },
+                error:function () {
+                    alert("数据请求出错！");
+                }
+            });
+        });
+    </script>
+    <!--/左边树状菜单-->
+  </head>
+
+  <body class="nav-md">
+    <div class="container body">
+      <div class="main_container">
+        <div class="col-md-3 left_col">
+          <div class="left_col scroll-view">
+            <div class="navbar nav_title" style="border: 0;">
+              <a  class="site_title"><i class="fa fa-paw"></i> <span>机场管理系统</span></a>
+            </div>
+
+            <div class="clearfix"></div>
+
+            <!-- menu profile quick info -->
+            <div class="profile">
+              <div class="profile_pic">
+                <img src="../../resource/images/user.png" alt="..." class="img-circle profile_img">
+              </div>
+              <div class="profile_info">
+                <span>Welcome</span>
+                <h2></h2>
+              </div>
+            </div>
+            <!-- /menu profile quick info -->
+
+            <br />
+
+            <!-- sidebar menu -->
+            <div id="sidebar-menu" class="main_menu_side hidden-print main_menu">
+              <!--动态菜单加载-->
+              <div class="menu_section" id="myMenu">
+
+              </div>
+              <!--/动态菜单加载-->
+            </div>
+            <!-- /sidebar menu -->
+
+            <!-- /menu footer buttons -->
+            <div class="sidebar-footer hidden-small">
+              <a data-toggle="tooltip" data-placement="top" title="Settings">
+                <span class="glyphicon glyphicon-cog" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="FullScreen">
+                <span class="glyphicon glyphicon-fullscreen" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" title="Lock">
+                <span class="glyphicon glyphicon-eye-close" aria-hidden="true"></span>
+              </a>
+              <a data-toggle="tooltip" data-placement="top" id="logout" title="Logout">
+                <span class="glyphicon glyphicon-off" aria-hidden="true"></span>
+              </a>
+            </div>
+            <!-- /menu footer buttons -->
+          </div>
+        </div>
+
+        <!-- top navigation -->
+        <div class="top_nav">
+          <div class="nav_menu">
+            <nav>
+              <div class="nav toggle">
+                <a id="menu_toggle"><i class="fa fa-bars"></i></a>
+              </div>
+
+              <ul class="nav navbar-nav navbar-right">
+                <li class="">
+                  <a href="javascript:;" class="user-profile dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                    <img src="images/img.jpg" alt="">管理员
+                    <!--<span class=" fa fa-angle-down"></span>-->
+                  </a>
+                  <!--<ul class="dropdown-menu dropdown-usermenu pull-right">
+                    <li><a href="javascript:;"> Profile</a></li>
+                    <li>
+                      <a href="javascript:;">
+                        <span class="badge bg-red pull-right">50%</span>
+                        <span>Settings</span>
+                      </a>
+                    </li>
+                    <li><a href="javascript:;">Help</a></li>
+                    <li><a href="login.html"><i class="fa fa-sign-out pull-right"></i> Log Out</a></li>
+                  </ul>-->
+                </li>
+
+                <li role="presentation" class="dropdown">
+                  <!--<a href="javascript:;" class="dropdown-toggle info-number" data-toggle="dropdown" aria-expanded="false">
+                    <i class="fa fa-envelope-o"></i>
+                    <span class="badge bg-green">6</span>
+                  </a>-->
+                  <ul id="menu1" class="dropdown-menu list-unstyled msg_list" role="menu">
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <a>
+                        <span class="image"><img src="images/img.jpg" alt="Profile Image" /></span>
+                        <span>
+                          <span>John Smith</span>
+                          <span class="time">3 mins ago</span>
+                        </span>
+                        <span class="message">
+                          Film festivals used to be do-or-die moments for movie makers. They were where...
+                        </span>
+                      </a>
+                    </li>
+                    <li>
+                      <div class="text-center">
+                        <a>
+                          <strong>See All Alerts</strong>
+                          <i class="fa fa-angle-right"></i>
+                        </a>
+                      </div>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <!-- /top navigation -->
+
+        <!-- page content -->
+        <div class="right_col" role="main">
+          <div class="">
+            <div class="clearfix"></div>
+
+            <div class="">
+              <div class="col-md-12 col-sm-12 col-xs-12">
+                <div class="x_panel" style="min-height: 900px;">
+                  <div class="x_title">
+                    <h2><small></small></h2>
+                    <ul class="nav navbar-right panel_toolbox">
+                      <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
+                      </li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><i class="fa fa-wrench"></i></a>
+                        <ul class="dropdown-menu" role="menu">
+                          <li><a href="#">Settings 1</a>
+                          </li>
+                          <li><a href="#">Settings 2</a>
+                          </li>
+                        </ul>
+                      </li>
+                      <li><a class="close-link"><i class="fa fa-close"></i></a>
+                      </li>
+                    </ul>
+                    <div class="clearfix"></div>
+                  </div>
+                  <div class="x_content">
+
+
+                    <div class="" role="tabpanel" data-example-id="togglable-tabs">
+                      <ul id="myTab" class="nav nav-tabs bar_tabs" role="tablist">
+                        <li role="presentation" class="active"><a href="#tab_content1" id="home-tab" role="tab" data-toggle="tab" aria-expanded="true">Home</a>
+                        </li>
+                      </ul>
+                      <div id="myTabContent" class="tab-content">
+                        <div role="tabpanel" class="tab-pane fade active in col-md-12 col-sm-12 col-xs-12" id="tab_content1" aria-labelledby="home-tab" style="min-height: 900px;">
+                          <iframe src="/userInfo/iframe/home/first" style="min-height: 900px;" class="col-md-12 col-sm-12 col-xs-12" frameborder="no" border="0" marginwidth="0" marginheight="0" scrolling="no" allowtransparency="yes"></iframe>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="clearfix"></div>
+
+              <div class="clearfix"></div>
+
+            </div>
+            <div class="clearfix"></div>
+
+            <div class="">
+
+            </div>
+
+          </div>
+          <div class="clearfix"></div>
+        </div>
+        <!-- /page content -->
+
+        <!-- footer content -->
+        <footer>
+          <div class="pull-right">
+            智能设备为您服务
+          </div>
+          <div class="clearfix"></div>
+        </footer>
+        <!-- /footer content -->
+      </div>
+    </div>
+
+    <div id="custom_notifications" class="custom-notifications dsp_none">
+      <ul class="list-unstyled notifications clearfix" data-tabbed_notifications="notif-group">
+      </ul>
+      <div class="clearfix"></div>
+      <div id="notif-group" class="tabbed_notifications"></div>
+    </div>
+
+    <!-- Bootstrap -->
+    <script src="../../resource/vendors/bootstrap/dist/js/bootstrap.min.js"></script>
+    <!-- FastClick -->
+    <script src="../../resource/vendors/fastclick/lib/fastclick.js"></script>
+    <!-- NProgress -->
+    <script src="../../resource/vendors/nprogress/nprogress.js"></script>
+    <!-- iCheck -->
+    <script src="../../resource/vendors/iCheck/icheck.min.js"></script>
+    <!-- Switchery -->
+    <script src="../../resource/vendors/switchery/dist/switchery.min.js" ></script>
+    <!-- Datatables -->
+    <script src="../../resource/vendors/datatables.net/js/jquery.dataTables.min.js"></script>
+    <script src="../../resource/vendors/datatables.net-bs/js/dataTables.bootstrap.min.js"></script>
+    <script src="../../resource/vendors/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
+    <script src="../../resource/vendors/datatables.net-bs/js/fnReloadAjax.js"></script>
+    <script src="../../resource/vendors/datatables.net-buttons-bs/js/buttons.bootstrap.min.js"></script>
+    <script src="../../resource/vendors/datatables.net-buttons/js/buttons.flash.min.js"></script>
+    <script src="../../resource/vendors/datatables.net-buttons/js/buttons.html5.min.js"></script>
+    <script src="../../resource/vendors/datatables.net-buttons/js/buttons.print.min.js"></script>
+    <script src="../../resource/vendors/datatables.net-fixedheader/js/dataTables.fixedHeader.min.js"></script>
+    <script src="../../resource/vendors/datatables.net-keytable/js/dataTables.keyTable.min.js"></script>
+    <script src="../../resource/vendors/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
+    <script src="../../resource/vendors/datatables.net-responsive-bs/js/responsive.bootstrap.js"></script>
+    <script src="../../resource/vendors/datatables.net-scroller/js/dataTables.scroller.min.js"></script>
+    <script src="../../resource/vendors/jszip/dist/jszip.min.js"></script>
+    <script src="../../resource/vendors/pdfmake/build/pdfmake.min.js"></script>
+    <script src="../../resource/vendors/pdfmake/build/vfs_fonts.js"></script>
+
+    <!-- bootstrap-progressbar -->
+    <script src="../../resource/vendors/bootstrap-progressbar/bootstrap-progressbar.min.js"></script>
+
+    <!-- PNotify -->
+    <script src="../../resource/vendors/pnotify/dist/pnotify.js"></script>
+    <script src="../../resource/vendors/pnotify/dist/pnotify.buttons.js"></script>
+    <script src="../../resource/vendors/pnotify/dist/pnotify.nonblock.js"></script>
+
+    <!-- Custom Theme Scripts -->
+    <script src="../../resource/build/js/custom.min.js"></script>
+
+    <!-- bootstrap-daterangepicker -->
+    <script src="../../resource/js/moment/moment.min.js"></script>
+    <script src="../../resource/js/datepicker/daterangepicker.js"></script>
+
+    <!-- PNotify -->
+    <!--<script>
+      $(document).ready(function() {
+        new PNotify({
+          title: "设备异常提醒",
+          type: "info",
+          text: "现在暂时未发现设备异常.",
+          nonblock: {
+              nonblock: true
+          },
+          addclass: 'dark',
+          styling: 'bootstrap3',
+          hide: false,
+          before_close: function(PNotify) {
+            PNotify.update({
+              title: PNotify.options.title + " - Enjoy your Stay",
+              before_close: null
+            });
+
+            PNotify.queueRemove();
+
+            return false;
+          }
+        });
+
+      });
+    </script>-->
+    <!-- /PNotify -->
+
+    <!-- Custom Notification -->
+    <script>
+      $(document).ready(function() {
+        var cnt = 10;
+
+        TabbedNotification = function(options) {
+          var message = "<div id='ntf" + cnt + "' class='text alert-" + options.type + "' style='display:none'><h2><i class='fa fa-bell'></i> " + options.title +
+            "</h2><div class='close'><a href='javascript:;' class='notification_close'><i class='fa fa-close'></i></a></div><p>" + options.text + "</p></div>";
+
+          if (!document.getElementById('custom_notifications')) {
+            alert('doesnt exists');
+          } else {
+            $('#custom_notifications ul.notifications').append("<li><a id='ntlink" + cnt + "' class='alert-" + options.type + "' href='#ntf" + cnt + "'><i class='fa fa-bell animated shake'></i></a></li>");
+            $('#custom_notifications #notif-group').append(message);
+            cnt++;
+            CustomTabs(options);
+          }
+        };
+
+        CustomTabs = function(options) {
+          $('.tabbed_notifications > div').hide();
+          $('.tabbed_notifications > div:first-of-type').show();
+          $('#custom_notifications').removeClass('dsp_none');
+          $('.notifications a').click(function(e) {
+            e.preventDefault();
+            var $this = $(this),
+              tabbed_notifications = '#' + $this.parents('.notifications').data('tabbed_notifications'),
+              others = $this.closest('li').siblings().children('a'),
+              target = $this.attr('href');
+            others.removeClass('active');
+            $this.addClass('active');
+            $(tabbed_notifications).children('div').hide();
+            $(target).show();
+          });
+        };
+
+        CustomTabs();
+
+        var tabid = idname = '';
+
+        $(document).on('click', '.notification_close', function(e) {
+          idname = $(this).parent().parent().attr("id");
+          tabid = idname.substr(-2);
+          $('#ntf' + tabid).remove();
+          $('#ntlink' + tabid).parent().remove();
+          $('.notifications a').first().addClass('active');
+          $('#notif-group div').first().css('display', 'block');
+        });
+      });
+    </script>
+    <!-- /Custom Notification -->
+
+  <script>
+    $(function () {
+        $("a[iframesrc]").click(function () {
+            var a_id = $(this).attr("id").substr(0);
+            var text = $(this).text();
+            var iframesrc = $(this).attr("iframesrc");
+            var tabId = "#tab"+a_id;
+            var tab_id = "#tab_"+a_id;
+            var tabIdVal = tab_id.substr(1);
+            var tab_idVal = tab_id.substr(1);
+            var tabIdObj_length = $("#"+tabIdVal).length;
+            var tab_idObj_length = $("#"+tab_idVal).length;
+            if(tabIdObj_length>0 && tab_idObj_length>0){//对象长度大于0证明元素存在(存在就不用添加)
+                //alert("存在");
+                $("#myTab li").removeClass("active");
+                $("#myTabContent div").removeClass("active");
+                $("#myTabContent div").removeClass("in");
+
+                $("#"+tabIdVal).addClass("active");
+                $("#"+tab_idVal).addClass("active");
+                $("#"+tab_idVal).addClass("in");
+            }else {//对象长度小于0证明元素不存在(不存在就添加)
+                //alert("不存在");
+                $("#myTab li").removeClass("active");
+                $("#myTab").append("<li role='presentation' class='active' id = '"+ tab_id +"' ondblclick='removeTab(this)'><a href='"+tab_id+"' id='"+a_id+"-tab' role='tab' data-toggle='tab' aria-expanded='true'>"+ text +"</a></li>");
+                $("#myTabContent div").removeClass("active");
+                $("#myTabContent div").removeClass("in");
+                $("#myTabContent").append("<div role='tabpanel' class='tab-pane fade in active col-md-12 col-sm-12 col-xs-12' id='"+tab_idVal+"' aria-labelledby='home-tab' style='min-height: 900px;'>\n" +
+                                              "<iframe src='"+iframesrc+"' style='min-height: 900px;' class='col-md-12 col-sm-12 col-xs-12' frameborder='no' border='0' marginwidth='0' marginheight='0' scrolling='no' allowtransparency='yes'></iframe>\n" +
+                                          "</div>");
+
+            }
+
+
+        });
+
+        /*$("[role='presentation']").dblclick(function () {
+            alert("1111111");
+            var idVal = $(this).children("a").eq(0).attr("href");
+            alert(idVal);
+            $(idVal).remove();
+            this.remove();
+            //$("[role='presentation']").eq(0).click();
+        });*/
+
+
+    });
+
+    var removeTab = function(ele){
+        var idVal = $(ele).children("a").eq(0).attr("href");
+        //alert(idVal);
+        $(idVal).siblings().eq(0).addClass('active');
+        $(idVal).siblings().eq(0).addClass('in');
+        $(idVal).remove();
+        //alert(2);
+        $(ele).siblings().eq(0).addClass('active');
+        $(ele).remove();
+    }
+  </script>
+
+  <script>
+    $(function () {
+        $("#logout").click(function () {
+            $.ajax({
+                url: "/userInfo/logout",
+                type: 'POST',
+                dataType: 'json',
+                /*timeout: 1000,*/
+                success: function (result, status) {
+                    if(!result.success){
+                        alert(result.msg);
+                    }else {
+                        window.location.href = "/login.html";
+                    }
+                },
+                error: function (err, status) {
+                    console.log(err)
+                }
+            })
+        });
+    })
+  </script>
+
+  </body>
+</html>

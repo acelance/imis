@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.ttzn.dao.MenuInfoDao">
+    <insert id="insert" parameterType="com.iotch.entity.MenuInfo">
+        INSERT INTO
+        tt_menu_info ()
+        VALUES
+        (#{userCode},#{userPassword},#{userName},#{userID},#{userSex},#{userBirthDate},#{userRegDate},#{userRole.roleCode},
+        #{userRegion.regionCode},#{userAdr},#{userPostode},#{userTel},#{userPhone},#{userCompany},#{userStatus},#{userNote})
+    </insert>
+
+    <delete id="delete" parameterType="com.iotch.entity.MenuInfo">
+        DELETE tt_user_info WHERE User_Code = #{userCode}
+    </delete>
+
+    <update id="update" parameterType="com.iotch.entity.MenuInfo">
+        UPDATE tt_menu_info
+        <set>
+            <if test="menuName!=null">Menu_Name = #{menuCode}</if>
+            <if test="subsetName!=null">Subset_Name = #{subsetName}</if>
+            <if test="bitmapName!=null">Bitmap_Name = #{bitmapName}</if>
+            <if test="objectName!=null">Object_Name = #{objectName}</if>
+            <if test="objectURL!=null">Object_URL = #{objectURL}</if>
+            <if test="objectType!=null">Object_Type = #{objectType}</if>
+            <if test="parentCode!=null">Parent_Code = # {parentCode}</if>
+        </set>
+        WHERE Menu_Code = #{menuCode}
+    </update>
+
+    <select id="selectById" parameterType="String" resultType="com.iotch.entity.MenuInfo">
+        SELECT * FROM tt_menu_info where Menu_Code = #{menuCode}
+    </select>
+
+    <select id="selectAll" resultType="com.iotch.entity.MenuInfo">
+        SELECT * FROM tt_menu_info
+    </select>
+
+    <select id="selectMatchEntity" parameterType="com.iotch.entity.MenuInfo" resultType="com.iotch.entity.MenuInfo">
+        SELECT * FROM tt_menu_info
+        <trim prefix="WHERE" prefixOverrides="AND|OR">
+            <if test="menuCode!=null">AND Menu_Code = #{menuCode}</if>
+            <if test="menuName!=null">AND Menu_Name = #{menuName}</if>
+            <if test="subsetName!=null">AND Subset_Name = #{subsetName}</if>
+            <if test="bitmapName!=null">AND Bitmap_Name = #{bitmapName}</if>
+            <if test="objectName!=null">AND Object_Name = #{objectName}</if>
+            <if test="objectURL!=null">AND Object_URL = #{objectURL}</if>
+            <if test="objectType!=null">AND Object_Type = #{objectType}</if>
+            <if test="parentCode!=null">AND Parent_Code = #{parentCode}</if>
+        </trim>
+    </select>
+
+    <!--父级菜单编码为空：一级菜单，物件类型是0,：菜单二不是按钮，用户状态为1：审核通过（可用），指定用户编码拥有的菜单-->
+    <select id="selectL1MenuByUserCode" parameterType="String" resultType="com.iotch.entity.MenuInfo">
+        SELECT * FROM tt_menu_info
+        WHERE Menu_Code IN
+            (SELECT rm.Menu_Code
+            FROM
+            tt_role_menu AS rm, tt_user_info AS ui
+            WHERE ui.User_Code = #{user_code}
+            AND ui.User_Status ='1'
+            AND rm.Role_Code = ui.Role_Code)
+        AND Object_Type = '0'
+        AND Parent_Code IS NULL
+        ORDER BY Menu_Code ASC
+    </select>
+
+    <select id="selectSubListByParentCode" resultType="com.iotch.entity.MenuInfo">
+        SELECT * FROM tt_menu_info
+        WHERE Menu_Code IN
+            (SELECT rm.Menu_Code
+            FROM
+            tt_role_menu AS rm, tt_user_info AS ui
+            WHERE ui.User_Code = '00000'
+            AND ui.User_Status ='1'
+            AND rm.Role_Code = ui.Role_Code)
+        AND Object_Type = '0'
+        AND Parent_Code = #{parent_code}
+        ORDER BY Menu_Code ASC
+    </select>
+
+</mapper>
