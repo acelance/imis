@@ -1,12 +1,12 @@
 package com.iotch.entity;
 
 public class AuthorityInfo {
-    private String authCode;
-    private String authName;
-    private MenuInfo menuInfo;
-    private String authNote;
-    private String authBitmap;
-    private String authURL;
+    private String authCode;//页面中的权限编码
+    private String authName;//页面中的权限名
+    private MenuInfo menuInfo;//所属菜单信息
+    private String authNote;//权限备注信息
+    private String authBitmap;//权限图标
+    private String authURL;//该权限包含需要请求的URL
 
     public AuthorityInfo() {
     }

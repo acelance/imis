@@ -1,6 +1,7 @@
 package com.iotch.entity;
 
 import java.sql.Timestamp;
+import java.util.List;
 
 public class OperatorsInfo {
     private String oprCode;//运营商编码
@@ -16,11 +17,12 @@ public class OperatorsInfo {
     private Timestamp oprRegDate;//运营商注册日期
     private Timestamp lastEditTime;//最后一次编辑时间
     private String oprNote;//运营商备注信息
+    private List<OperatorsInfo> subOprList;//下属运营商集合
 
     public OperatorsInfo() {
     }
 
-    public OperatorsInfo(String oprCode, String oprName, String oprPhone, String oprLogo, RoleInfo roleInfo, String oprLevel, String parentCode, String oprAccount, String oprPassword, String oprStatus, Timestamp oprRegDate, Timestamp lastEditTime, String oprNote) {
+    public OperatorsInfo(String oprCode, String oprName, String oprPhone, String oprLogo, RoleInfo roleInfo, String oprLevel, String parentCode, String oprAccount, String oprPassword, String oprStatus, Timestamp oprRegDate, Timestamp lastEditTime, String oprNote, List<OperatorsInfo> subOprList) {
         this.oprCode = oprCode;
         this.oprName = oprName;
         this.oprPhone = oprPhone;
@@ -34,6 +36,7 @@ public class OperatorsInfo {
         this.oprRegDate = oprRegDate;
         this.lastEditTime = lastEditTime;
         this.oprNote = oprNote;
+        this.subOprList = subOprList;
     }
 
     @Override
@@ -52,6 +55,7 @@ public class OperatorsInfo {
                 ", oprRegDate=" + oprRegDate +
                 ", lastEditTime=" + lastEditTime +
                 ", oprNote='" + oprNote + '\'' +
+                ", subOprList=" + subOprList +
                 '}';
     }
 
@@ -157,5 +161,13 @@ public class OperatorsInfo {
 
     public void setOprNote(String oprNote) {
         this.oprNote = oprNote;
+    }
+
+    public List<OperatorsInfo> getSubOprList() {
+        return subOprList;
+    }
+
+    public void setSubOprList(List<OperatorsInfo> subOprList) {
+        this.subOprList = subOprList;
     }
 }

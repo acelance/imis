@@ -85,8 +85,11 @@ public class DESUtil {
     }
 
     public static void main(String[] args) {
-        System.out.println(getEncryptString("root"));
-        System.out.println(getEncryptString("lin"));
+        System.out.println("1001:"+getEncryptString("1001"));
+        System.out.println("040898:"+getEncryptString("040898"));
+        System.out.println("041470:"+getEncryptString("041470"));
+        System.out.println("040683:"+getEncryptString("040683"));
+        System.out.println(getEncryptString("000000@Lin"));
         System.out.println(getEncryptString("123456"));
         System.out.println(getDecryptString("472FdRdwSsc="));
         System.out.println(getDecryptString("QAHlVoUc49w="));

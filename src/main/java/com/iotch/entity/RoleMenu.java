@@ -1,8 +1,8 @@
 package com.iotch.entity;
 
 public class RoleMenu {
-    private RoleInfo roleInfo;
-    private MenuInfo menuInfo;
+    private RoleInfo roleInfo;//角色信息
+    private MenuInfo menuInfo;//菜单信息
 
     public RoleMenu() {
     }

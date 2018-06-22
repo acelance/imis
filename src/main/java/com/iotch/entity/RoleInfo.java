@@ -1,6 +1,7 @@
 package com.iotch.entity;
 
 import java.sql.Timestamp;
+import java.util.List;
 
 public class RoleInfo {
     private String roleCode;//角色编码
@@ -11,11 +12,12 @@ public class RoleInfo {
     private Timestamp createTime;//创建时间
     private Timestamp lastEditTime;//最后编辑时间
     private String roleType;//角色类型(0:超级管理员,1:运行商类,2:员工类)
+    private List<RoleInfo> subRoleList;//该角色下属可以管理的角色
 
     public RoleInfo() {
     }
 
-    public RoleInfo(String roleCode, String roleName, String roleDesc, String superiorRole, String roleStatus, Timestamp createTime, Timestamp lastEditTime, String roleType) {
+    public RoleInfo(String roleCode, String roleName, String roleDesc, String superiorRole, String roleStatus, Timestamp createTime, Timestamp lastEditTime, String roleType, List<RoleInfo> subRoleList) {
         this.roleCode = roleCode;
         this.roleName = roleName;
         this.roleDesc = roleDesc;
@@ -24,6 +26,7 @@ public class RoleInfo {
         this.createTime = createTime;
         this.lastEditTime = lastEditTime;
         this.roleType = roleType;
+        this.subRoleList = subRoleList;
     }
 
     @Override
@@ -37,6 +40,7 @@ public class RoleInfo {
                 ", createTime=" + createTime +
                 ", lastEditTime=" + lastEditTime +
                 ", roleType='" + roleType + '\'' +
+                ", subRoleList=" + subRoleList +
                 '}';
     }
 
@@ -102,5 +106,13 @@ public class RoleInfo {
 
     public void setRoleType(String roleType) {
         this.roleType = roleType;
+    }
+
+    public List<RoleInfo> getSubRoleList() {
+        return subRoleList;
+    }
+
+    public void setSubRoleList(List<RoleInfo> subRoleList) {
+        this.subRoleList = subRoleList;
     }
 }

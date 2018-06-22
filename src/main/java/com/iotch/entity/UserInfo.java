@@ -3,20 +3,20 @@ package com.iotch.entity;
 import java.sql.Timestamp;
 
 public class UserInfo {
-    private String userCode;
-    private String userName;
-    private String userPassword;
-    private String userPhone;
-    private RoleInfo roleInfo;
-    private Timestamp userCreateTime;
-    private Timestamp lastEditTime;
-    private OperatorsInfo operatorsInfo;
-    private String userStatus;
-    private String userAddr;
-    private String userPostCode;
-    private String userCompany;
-    private String userTel;
-    private String userNote;
+    private String userCode;//用户编码
+    private String userName;//用户姓名
+    private String userPassword;//用户密码
+    private String userPhone;//用户手机号
+    private RoleInfo roleInfo;//用户角色信息
+    private Timestamp userCreateTime;//用户创建时间
+    private Timestamp lastEditTime;//修改时间
+    private OperatorsInfo operatorsInfo;//所属运营商信息(总运营商没有该信息,一级运营商归属总运营商,加盟商归属一级运营商)
+    private String userStatus;//用户状态
+    private String userAddr;//用户地址
+    private String userPostCode;//邮政编码
+    private String userCompany;//公司名称
+    private String userTel;//座机号码
+    private String userNote;//备注
 
     public UserInfo() {
     }

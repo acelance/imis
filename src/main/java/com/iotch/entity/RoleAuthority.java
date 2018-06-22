@@ -1,8 +1,8 @@
 package com.iotch.entity;
 
 public class RoleAuthority {
-    private RoleInfo roleInfo;
-    private AuthorityInfo authorityInfo;
+    private RoleInfo roleInfo;//角色信息
+    private AuthorityInfo authorityInfo;//每个菜单的权限信息
 
     public RoleAuthority() {
     }
