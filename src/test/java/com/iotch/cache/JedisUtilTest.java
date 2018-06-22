@@ -2,6 +2,7 @@ package com.iotch.cache;
 
 import com.iotch.BaseTest;
 import org.junit.FixMethodOrder;
+import org.junit.Test;
 import org.junit.runners.MethodSorters;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.iotch.cache.JedisUtil;
@@ -17,7 +18,10 @@ public class JedisUtilTest extends BaseTest {
     @Autowired
     private JedisUtil.Keys jedisKeys;
 
+    @Test
     public void testRedis(){
+        jedisStrings.set("a","123");
 
+        System.out.println(jedisStrings.get("a"));
     }
 }
