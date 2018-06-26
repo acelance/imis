@@ -1,6 +1,8 @@
 package com.iotch.entity;
 
-public class RegionInfo {
+import java.io.Serializable;
+
+public class RegionInfo implements Serializable {
     private String regionCode;
     private String regionName;
     private String parentCode;

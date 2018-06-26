@@ -1,11 +1,15 @@
 package com.iotch.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
  * 支付类型
  */
-public class PayType {
+public class PayType implements Serializable {
     private String payTypeCode;//支付类型编码
     private String payTypeName;//支付类型名称
     private Timestamp createTime;//创建时间

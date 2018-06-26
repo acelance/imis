@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.iotch.dao.AuthorityInfoDao">
+    <resultMap id="" type="com.iotch.entity.AuthorityInfo">
+        <id column="Auth_Code" property="authCode" jdbcType="VARCHAR" />
+        <result column="Auth_Name" property="authName" jdbcType="VARCHAR" />
+        <result column="Auth_Note" property="authNote" jdbcType="VARCHAR" />
+        <result column="Auth_Bitmap" property="authBitmap" jdbcType="VARCHAR" />
+        <result column="Auth_URL" property="authURL" jdbcType="VARCHAR" />
+        <association property="menuInfo" javaType="com.iotch.entity.MenuInfo" column="Menu_Code" jdbcType="VARCHAR" select="com.iotch.dao.MenuInfoDao.selectById"/>
+    </resultMap>
+
+
+    <select id="selectById" parameterType="String" resultType="com.iotch.entity.AuthorityInfo">
+        SELECT * FROM tt_aisle_info where Aisle_Code = #{aisleCode}
+    </select>
+
+    <select id="selectMatchEntity" parameterType="com.iotch.entity.AuthorityInfo" resultType="com.iotch.entity.AuthorityInfo">
+
+    </select>
+
+</mapper>

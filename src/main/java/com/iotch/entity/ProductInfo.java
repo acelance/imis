@@ -1,9 +1,10 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.List;
 
-public class ProductInfo {
+public class ProductInfo implements Serializable {
     private String productCode;//商品编码
     private String productName;//商品名称
     private String productDesc;//商品描述

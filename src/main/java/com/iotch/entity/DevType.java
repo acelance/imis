@@ -1,11 +1,12 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
  * 设备类型
  */
-public class DevType {
+public class DevType implements Serializable {
     private String devTypeCode;//设备类型编码
     private String devTypeName;//设备类型名称
     private String typeNote;//设备类型备注信息

@@ -12,7 +12,16 @@ import java.util.List;
 
 @Service
 public class UserInfoServiceImpl implements UserInfoService {
-    @Autowired
+    @Override
+    public UserInfo getUserById(String userCode) {
+        return null;
+    }
+
+    @Override
+    public UserInfo login(String userCode, String userPassword, HttpSession session) {
+        return null;
+    }
+/*@Autowired
     private UserInfoDao userInfoDao;
 
     @Override
@@ -34,5 +43,5 @@ public class UserInfoServiceImpl implements UserInfoService {
             }
         }
         return null;
-    }
+    }*/
 }

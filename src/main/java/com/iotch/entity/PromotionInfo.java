@@ -1,11 +1,12 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
  * 推广活动类
  */
-public class PromotionInfo {
+public class PromotionInfo implements Serializable {
     private String promotionCode;//推广活动编码
     private String promotionName;//推广活动名称
     private Timestamp createTime;//创建时间

@@ -1,12 +1,13 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
  * 设备推广活动配置
  *      该设备有哪些推广活动
  */
-public class DevPromotion {
+public class DevPromotion implements Serializable {
     private DevInfo devInfo;//设备信息
     private PromotionInfo promotionInfo;//推广活动信息
     private Timestamp createTime;//创建时间

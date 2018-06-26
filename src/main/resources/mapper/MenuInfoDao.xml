@@ -2,42 +2,52 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
- <mapper namespace="com.ttzn.dao.MenuInfoDao">
+ <mapper namespace="com.iotch.dao.MenuInfoDao">
+    <resultMap id="menuInfoMap" type="com.iotch.entity.MenuInfo">
+        <id column="Menu_Code" property="menuCode" jdbcType="VARCHAR" />
+        <result column="Menu_Name" property="menuName" jdbcType="VARCHAR" />
+        <result column="Subset_Name" property="subsetName" jdbcType="VARCHAR" />
+        <result column="Bitmap_Name" property="bitmapName" jdbcType="VARCHAR" />
+        <result column="Object_Name" property="objectName" jdbcType="VARCHAR" />
+        <result column="Object_URL" property="objectURL" jdbcType="VARCHAR" />
+        <result column="Object_Type" property="objectType" jdbcType="VARCHAR" />
+        <result column="Parent_Code" property="parentCode" jdbcType="VARCHAR" />
+    </resultMap>
+
     <insert id="insert" parameterType="com.iotch.entity.MenuInfo">
-        INSERT INTO
-        tt_menu_info ()
+        INSERT INTO tt_menu_info
+        (Menu_Code,Menu_Name,Subset_Name,Bitmap_Name,Object_Name,Object_URL,Object_Type,Parent_Code)
         VALUES
-        (#{userCode},#{userPassword},#{userName},#{userID},#{userSex},#{userBirthDate},#{userRegDate},#{userRole.roleCode},
-        #{userRegion.regionCode},#{userAdr},#{userPostode},#{userTel},#{userPhone},#{userCompany},#{userStatus},#{userNote})
+        (#{menuCode},#{menuName},#{subsetName},#{bitmapName},#{objectName},#{objectURL},#{objectType},#{parentCode})
     </insert>
 
-    <delete id="delete" parameterType="com.iotch.entity.MenuInfo">
-        DELETE tt_user_info WHERE User_Code = #{userCode}
+    <delete id="deleteByPK" parameterType="com.iotch.entity.MenuInfo">
+        DELETE FROM tt_menu_info WHERE Menu_Code = #{menuCode}
     </delete>
 
-    <update id="update" parameterType="com.iotch.entity.MenuInfo">
+    <update id="updateByPK" parameterType="com.iotch.entity.MenuInfo">
         UPDATE tt_menu_info
-        <set>
-            <if test="menuName!=null">Menu_Name = #{menuCode}</if>
-            <if test="subsetName!=null">Subset_Name = #{subsetName}</if>
-            <if test="bitmapName!=null">Bitmap_Name = #{bitmapName}</if>
-            <if test="objectName!=null">Object_Name = #{objectName}</if>
-            <if test="objectURL!=null">Object_URL = #{objectURL}</if>
-            <if test="objectType!=null">Object_Type = #{objectType}</if>
-            <if test="parentCode!=null">Parent_Code = # {parentCode}</if>
-        </set>
+        <trim prefix="set" suffixOverrides=",">
+            <if test="menuName!=null">Menu_Name = #{menuName},</if>
+            <if test="subsetName!=null">Subset_Name = #{subsetName},</if>
+            <if test="bitmapName!=null">Bitmap_Name = #{bitmapName},</if>
+            <if test="objectName!=null">Object_Name = #{objectName},</if>
+            <if test="objectURL!=null">Object_URL = #{objectURL},</if>
+            <if test="objectType!=null">Object_Type = #{objectType},</if>
+            <if test="parentCode!=null">Parent_Code = #{parentCode},</if>
+        </trim>
         WHERE Menu_Code = #{menuCode}
     </update>
 
-    <select id="selectById" parameterType="String" resultType="com.iotch.entity.MenuInfo">
-        SELECT * FROM tt_menu_info where Menu_Code = #{menuCode}
-    </select>
-
-    <select id="selectAll" resultType="com.iotch.entity.MenuInfo">
+    <select id="selectAll" resultMap="menuInfoMap">
         SELECT * FROM tt_menu_info
     </select>
 
-    <select id="selectMatchEntity" parameterType="com.iotch.entity.MenuInfo" resultType="com.iotch.entity.MenuInfo">
+    <select id="selectById" parameterType="String" resultMap="menuInfoMap">
+        SELECT * FROM tt_menu_info where Menu_Code = #{menuCode}
+    </select>
+
+    <select id="selectMatchEntity" parameterType="com.iotch.entity.MenuInfo" resultMap="menuInfoMap">
         SELECT * FROM tt_menu_info
         <trim prefix="WHERE" prefixOverrides="AND|OR">
             <if test="menuCode!=null">AND Menu_Code = #{menuCode}</if>

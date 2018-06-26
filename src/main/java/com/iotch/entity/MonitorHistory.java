@@ -1,11 +1,12 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
  * 监控历史信息
  */
-public class MonitorHistory {
+public class MonitorHistory implements Serializable {
     private String historyCode;//监控历史流水码,yyyyMMddHH24mmss+Random(9999)
     private DevInfo devInfo;//设备信息
     private MonitorInfo monitorInfo;//监控信息

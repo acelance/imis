@@ -1,8 +1,13 @@
 package com.iotch.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Transient;
+import java.io.Serializable;
 import java.sql.Timestamp;
 
-public class UserInfo {
+public class UserInfo implements Serializable {
     private String userCode;//用户编码
     private String userName;//用户姓名
     private String userPassword;//用户密码

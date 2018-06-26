@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.iotch.dao.MonitorInfoDao">
+    <resultMap id="monitorInfoMap" type="com.iotch.entity.MonitorInfo">
+        <id column="Monitor_Code" property="monitorCode" jdbcType="VARCHAR" />
+        <result column="Monitor_Name" property="monitorName" jdbcType="VARCHAR" />
+        <result column="Note" property="note" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <insert id="insert" parameterType="com.iotch.entity.MonitorInfo">
+        INSERT INTO
+        tt_monitor_info (Monitor_Code,Monitor_Name,Note)
+        VALUES
+        (#{monitorCode},#{monitorName},#{note})
+    </insert>
+
+    <delete id="deleteByPK" parameterType="com.iotch.entity.MonitorInfo">
+        DELETE FROM tt_monitor_info WHERE Monitor_Code = #{monitorCode}
+    </delete>
+
+    <update id="updateByPK" parameterType="com.iotch.entity.MonitorInfo">
+        UPDATE tt_monitor_info
+        <trim prefix="set" suffixOverrides=",">
+            <if test="monitorName!=null">Monitor_Name = #{monitorName},</if>
+            <if test="note!=null">Note = #{note},</if>
+        </trim>
+        WHERE Monitor_Code = #{monitorCode}
+    </update>
+
+    <select id="selectAll" resultMap="monitorInfoMap">
+        SELECT * FROM tt_monitor_info
+    </select>
+
+    <select id="selectById" parameterType="String" resultMap="monitorInfoMap">
+        SELECT * FROM tt_monitor_info where Monitor_Code = #{monitorCode}
+    </select>
+
+    <select id="selectMatchEntity" parameterType="com.iotch.entity.UserInfo" resultMap="monitorInfoMap">
+        SELECT * FROM tt_monitor_info
+        <trim prefix="WHERE" prefixOverrides="AND|OR">
+            <if test="monitorCode!=null">AND Monitor_Code = #{monitorCode}</if>
+            <if test="monitorName!=null">AND Monitor_Name = #{monitorName}</if>
+            <if test="note!=null">AND Note = #{note}</if>
+        </trim>
+    </select>
+
+</mapper>

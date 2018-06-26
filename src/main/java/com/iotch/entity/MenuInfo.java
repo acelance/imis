@@ -1,8 +1,12 @@
 package com.iotch.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Transient;
+import java.io.Serializable;
 import java.util.List;
-
-public class MenuInfo {
+public class MenuInfo implements Serializable {
     private String menuCode;//菜单编码
     private String menuName;//菜单名称
     private String subsetName;//子集名称

@@ -1,11 +1,12 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
  * 商品图片详情表
  */
-public class ProductImg {
+public class ProductImg implements Serializable {
     private String productImgId;//商品图片编码
     private String imgAddr;//图片路径地址
     private String imgDesc;//图片描述

@@ -1,6 +1,8 @@
 package com.iotch.entity;
 
-public class RoleAuthority {
+import java.io.Serializable;
+
+public class RoleAuthority implements Serializable {
     private RoleInfo roleInfo;//角色信息
     private AuthorityInfo authorityInfo;//每个菜单的权限信息
 

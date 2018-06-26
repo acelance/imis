@@ -1,5 +1,6 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
@@ -18,7 +19,7 @@ import java.sql.Timestamp;
  *      C.其他人
  *      1.没有查看或修改权限
  */
-public class DevActiveCode {
+public class DevActiveCode implements Serializable {
     private String devCode;//设备编码
     private String activeCode;//激活码
     private Timestamp createTime;//创建时间

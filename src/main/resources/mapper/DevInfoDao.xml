@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.iotch.dao.DevInfoDao">
+    <resultMap id="devInfoMap" type="com.iotch.entity.DevInfo">
+        <id column="Module_Code" property="moduleCode" jdbcType="VARCHAR" />
+        <result column="Module_Name" property="moduleName" jdbcType="VARCHAR" />
+    </resultMap>
+
+    <insert id="insert" parameterType="com.iotch.entity.DevInfo">
+        INSERT INTO
+        tt_module_info (Module_Code,Module_Name)
+        VALUES
+        (#{moduleCode},#{moduleName})
+    </insert>
+
+    <delete id="deleteByPK" parameterType="com.iotch.entity.DevInfo">
+        DELETE FROM tt_module_info WHERE Module_Code = #{moduleCode}
+    </delete>
+
+    <update id="updateByPK" parameterType="com.iotch.entity.DevInfo">
+        UPDATE tt_module_info
+        <trim prefix="set" suffixOverrides=",">
+            <if test="moduleName!=null">Module_Name = #{moduleName},</if>
+        </trim>
+        WHERE Module_Code = #{moduleCode}
+    </update>
+
+    <select id="selectAll" resultMap="devInfoMap">
+        SELECT * FROM tt_module_info
+    </select>
+
+    <select id="selectById" parameterType="String" resultMap="devInfoMap">
+        SELECT * FROM tt_module_info where Module_Code = #{moduleCode}
+    </select>
+
+    <select id="selectMatchEntity" parameterType="com.iotch.entity.UserInfo" resultMap="devInfoMap">
+        SELECT * FROM tt_module_info
+        <trim prefix="WHERE" prefixOverrides="AND|OR">
+            <if test="moduleCode!=null">AND Module_Code = #{moduleCode}</if>
+            <if test="moduleName!=null">AND Module_Name = #{moduleName}</if>
+        </trim>
+    </select>
+
+</mapper>

@@ -1,9 +1,11 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
+
 /**
  * 监控定义信息类
  */
-public class MonitorInfo {
+public class MonitorInfo implements Serializable {
     private String monitorCode;//监控编码
     private String monitorName;//监控名称(如:离线,xx故障,正常)
     private String note;//备注信息

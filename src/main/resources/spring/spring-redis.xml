@@ -60,7 +60,7 @@
     <bean id="jedisConnectionFactory" class="org.springframework.data.redis.connection.jedis.JedisConnectionFactory" destroy-method="destroy">
         <property name="poolConfig" ref="jedisPoolConfig"/>
         <!--IP地址 -->
-        <property name="hostName" value="${redis.hostName}"/>
+        <property name="hostName" value="${redis.hostname}"/>
         <!--端口号  -->
         <property name="port" value="${redis.port}"/>
         <!--如果Redis设置有密码,没有的话就注释掉下面的配置  -->
@@ -91,8 +91,9 @@
     </bean >
 
     <!--自定义redis工具类,在需要缓存的地方注入此类  -->
-    <!--<bean id="redisUtil" class="com.demo.utils.RedisUtil">
+    <bean id="redisUtil" class="com.iotch.cache.RedisUtil">
         <property name="redisTemplate" ref="redisTemplate" />
-    </bean>-->
+    </bean>
+
 
 </beans>

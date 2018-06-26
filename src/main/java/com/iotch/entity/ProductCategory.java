@@ -1,11 +1,12 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
  * 商品分类
  */
-public class ProductCategory {
+public class ProductCategory implements Serializable {
     private String productCategoryId;//商品分类编码
     private String productCategoryName;//商品分类名称
     private Integer priority;//优先级

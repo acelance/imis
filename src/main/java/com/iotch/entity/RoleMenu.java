@@ -1,6 +1,8 @@
 package com.iotch.entity;
 
-public class RoleMenu {
+import java.io.Serializable;
+
+public class RoleMenu implements Serializable {
     private RoleInfo roleInfo;//角色信息
     private MenuInfo menuInfo;//菜单信息
 

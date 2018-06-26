@@ -1,10 +1,12 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
+
 /**
  * 设备支付类型配置类
  *      配置该设备有哪种支付类型
  */
-public class DevPayType {
+public class DevPayType implements Serializable {
     private DevInfo devInfo;//设备信息
     private PayType payType;//支付类型信息
 

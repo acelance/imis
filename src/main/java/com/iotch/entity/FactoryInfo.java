@@ -1,6 +1,8 @@
 package com.iotch.entity;
 
-public class FactoryInfo {
+import java.io.Serializable;
+
+public class FactoryInfo implements Serializable {
     private String factoryCode;//厂商编码
     private String factoryName;//厂商名称
     private String factoryAddr;//厂商地址

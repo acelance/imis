@@ -1,9 +1,10 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.Arrays;
 
-public class DevInfo {
+public class DevInfo implements Serializable {
     private String devCode;//设备编号
     private String devName;//设备名称
     private String devType;//设备类型信息

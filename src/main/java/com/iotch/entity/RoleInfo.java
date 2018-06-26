@@ -1,17 +1,32 @@
 package com.iotch.entity;
 
+import javax.persistence.Column;
+import javax.persistence.Id;
+import javax.persistence.Table;
+import javax.persistence.Transient;
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.List;
-
-public class RoleInfo {
+@Table(name = "tt_role_info")
+public class RoleInfo implements Serializable {
+    @Id
+    @Column(name = "Role_Code")
     private String roleCode;//角色编码
+
     private String roleName;//角色名称
+
     private String roleDesc;//角色备注
+
     private String superiorRole;//上级角色等级编码
+
     private String roleStatus;//角色状态
+
     private Timestamp createTime;//创建时间
+
     private Timestamp lastEditTime;//最后编辑时间
+
     private String roleType;//角色类型(0:超级管理员,1:运行商类,2:员工类)
+    @Transient
     private List<RoleInfo> subRoleList;//该角色下属可以管理的角色
 
     public RoleInfo() {

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.iotch.dao.ModuleFaultDao">
+    <resultMap id="modFaultMap" type="com.iotch.entity.ModuleFault">
+        <id column="Mod_Fault_Code" property="modFaultCode" jdbcType="VARCHAR" />
+        <result column="Mod_Fault_Name" property="modFualtName" jdbcType="VARCHAR" />
+        <association property="moduleInfo" javaType="com.iotch.entity.ModuleInfo" column="Module_Code" select="com.iotch.dao.ModuleInfoDao.selectById"/>
+    </resultMap>
+
+    <insert id="insert" parameterType="com.iotch.entity.ModuleFault">
+        INSERT INTO
+        tt_module_fault (Mod_Fault_Code,Mod_Fault_Name,Module_Code)
+        VALUES
+        (#{modFaultCode},#{modFualtName},#{moduleInfo.moduleCode})
+    </insert>
+
+    <delete id="deleteByPK" parameterType="com.iotch.entity.ModuleFault">
+        DELETE FROM tt_module_fault WHERE Mod_Fault_Code = #{modFaultCode}
+    </delete>
+
+    <update id="updateByPK" parameterType="com.iotch.entity.ModuleFault">
+        UPDATE tt_module_fault
+        <trim prefix="set" suffixOverrides=",">
+            <if test="modFualtName!=null">Mod_Fault_Name = #{modFualtName},</if>
+            <if test="moduleInfo!=null">Module_Code = #{moduleInfo.moduleCode},</if>
+        </trim>
+        WHERE Mod_Fault_Code = #{modFaultCode}
+    </update>
+
+    <select id="selectAll" resultMap="modFaultMap">
+        SELECT * FROM tt_module_fault
+    </select>
+
+    <select id="selectById" parameterType="String" resultMap="modFaultMap">
+        SELECT * FROM tt_module_fault where Mod_Fault_Code = #{modFaultCode}
+    </select>
+
+    <select id="selectMatchEntity" parameterType="com.iotch.entity.UserInfo" resultMap="modFaultMap">
+        SELECT * FROM tt_module_fault
+        <trim prefix="WHERE" prefixOverrides="AND|OR">
+            <if test="modFaultCode!=null">AND Mod_Fault_Code = #{modFaultCode}</if>
+            <if test="modFualtName!=null">AND Mod_Fault_Name = #{modFualtName}</if>
+            <if test="moduleInfo!=null">AND Module_Code = #{moduleInfo.moduleCode}</if>
+        </trim>
+    </select>
+
+</mapper>

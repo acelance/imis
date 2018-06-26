@@ -1,9 +1,10 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 import java.util.List;
 
-public class OperatorsInfo {
+public class OperatorsInfo implements Serializable {
     private String oprCode;//运营商编码
     private String oprName;//运营商名称
     private String oprPhone;//运营商手机号

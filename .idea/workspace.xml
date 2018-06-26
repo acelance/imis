@@ -7,79 +7,181 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a85dea86-7ac4-4bcd-bf37-cf0fe3e99c05" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_2_RELEASE.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_2_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotch/entity/RegionInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/iotch/entity/RegionInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotch/entity/RoleInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/iotch/entity/RoleInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/iotch/util/MD5Util.class" afterPath="$PROJECT_DIR$/target/classes/com/iotch/util/MD5Util.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/entity/RegionInfo.class" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/entity/RegionInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/entity/RoleInfo.class" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/entity/RoleInfo.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/util/MD5Util.class" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/util/MD5Util.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/imis_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/imis_war_exploded.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_1_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_1_5_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_icexls_icexls_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_icexls_icexls_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_11.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/imis.iml" afterPath="$PROJECT_DIR$/imis.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/redis.properties" afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/iotch/cache/JedisUtilTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/iotch/cache/JedisUtilTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/imis/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/imis/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/spring/spring-dao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_persistence_persistence_api_1_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__tk_mybatis_mapper_3_4_5.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/cache/RedisTemplateUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/cache/RedisUtil.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/AisleInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/AuthorityInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/BusinessFormatDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevActiveCodeDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevAisleDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevModuleStatusDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevPayTypeDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevPromotionDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevTypeDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/FactoryInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/ModuleFaultDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/ModuleInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/MonitorHistoryDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/MonitorInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/OperatorsInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/OprProductCategoryDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/OprProductDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/PayTypeDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/ProductCategoryDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/ProductImgDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/ProductInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/PromotionInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/RegionInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/RoleAuthorityDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/RoleInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/RoleMenuDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/TransactionInfoDao.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevModuleStatus.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/ModuleFault.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/ModuleInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/TransactionInfo.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AisleInfoDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/AuthorityInfoDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/BusinessFormatDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/DevInfoDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ModuleFaultDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/ModuleInfoDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/MonitorHistoryDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/MonitorInfoDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/OperatorsInfoDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/PayTypeDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/mapper/RoleInfoDao.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/iotch/dao/MenuInfoDaoTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/iotch/dao/ModuleFaultDaoTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/iotch/dao/ModuleInfoDaoTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/iotch/dao/MonitorInfoDaoTest.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/iotch/dao/PayTypeDaoTest.java" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/imis_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/imis_war_exploded.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_1_5_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__asm_asm_1_5_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__cglib_cglib_2_1_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_classic_1_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_core_1_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_6.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_fastjson_1_2_5.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_8_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_8_7.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_8_7.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_jsqlparser_jsqlparser_0_9_5.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_pagehelper_pagehelper_4_2_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_penggle_kaptcha_2_3_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_virtuald_curvesapi_1_04.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_icexls_icexls_2_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_icexls_icexls_2_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_jhlabs_filters_2_0_235_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_codec_commons_codec_1_10.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_javax_servlet_api_3_1_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_servlet_servlet_api_2_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jstl_jstl_1_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__log4j_log4j_1_2_14.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_38.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_coobird_thumbnailator_0_4_8.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sourceforge_jexcelapi_jxl_2_6_12.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_collections4_4_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_3_17.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_3_17.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_poi_poi_ooxml_schemas_3_17.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_xmlbeans_xmlbeans_2_6_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjrt_1_6_11.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_11.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_6_11.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_5.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_jcl_over_slf4j_1_7_21.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_2_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_2_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_2_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_2_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aop_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_core_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_jdbc_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_test_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_tx_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_web_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_webmvc_4_3_7_RELEASE.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_9_0.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__stax_stax_api_1_0_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/imis.iml" afterPath="$PROJECT_DIR$/imis.iml" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/cache/JedisPoolWriper.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/cache/JedisUtil.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/dao/MenuInfoDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/MenuInfoDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/dao/UserInfoDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/dao/UserInfoDao.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/dao/sqlprovider/PayInfoProvider.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/AisleInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/AisleInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/AuthorityInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/AuthorityInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/BusinessFormat.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/BusinessFormat.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevActiveCode.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevActiveCode.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevAisle.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevAisle.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevPayType.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevPayType.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevPromotion.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevPromotion.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevType.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevType.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/FactoryInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/FactoryInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/MenuInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/MenuInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/MonitorHistory.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/MonitorHistory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/MonitorInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/MonitorInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/OperatorsInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/OperatorsInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/OprProduct.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/OprProduct.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/OprProductCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/OprProductCategory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/PayType.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/PayType.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductCategory.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductCategory.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductImg.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductImg.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/PromotionInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/PromotionInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/RegionInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/RegionInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleAuthority.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleAuthority.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleMenu.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleMenu.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/entity/UserInfo.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/entity/UserInfo.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/iotch/service/impl/UserInfoServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iotch/service/impl/UserInfoServiceImpl.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jdbc.druid.properties" afterPath="$PROJECT_DIR$/src/main/resources/jdbc.druid.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/MenuInfoDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/MenuInfoDao.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/mapper/UserInfoDao.xml" afterPath="$PROJECT_DIR$/src/main/resources/mapper/UserInfoDao.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/redis.properties" afterPath="$PROJECT_DIR$/src/main/resources/redis.properties" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" afterPath="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/iotch/BaseTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/iotch/BaseTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/iotch/cache/JedisUtilTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/iotch/cache/JedisUtilTest.java" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/iotch/dao/UserInfoDaoTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/iotch/dao/UserInfoDaoTest.java" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iotch/dao/UserInfoDao.class" afterPath="$PROJECT_DIR$/target/classes/com/iotch/dao/UserInfoDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iotch/dao/sqlprovider/PayInfoProvider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iotch/entity/RegionInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/iotch/entity/RegionInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iotch/entity/RoleInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/iotch/entity/RoleInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iotch/entity/UserInfo.class" afterPath="$PROJECT_DIR$/target/classes/com/iotch/entity/UserInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/iotch/util/MD5Util.class" afterPath="$PROJECT_DIR$/target/classes/com/iotch/util/MD5Util.class" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jdbc.druid.properties" afterPath="$PROJECT_DIR$/target/classes/jdbc.druid.properties" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/UserInfoDao.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/UserInfoDao.xml" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/target/classes/spring/spring-dao.xml" />
+      <change beforePath="$PROJECT_DIR$/target/imis/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/target/imis/META-INF/MANIFEST.MF" />
+      <change beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/dao/UserInfoDao.class" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/dao/UserInfoDao.class" />
+      <change beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/dao/sqlprovider/PayInfoProvider.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/entity/RegionInfo.class" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/entity/RegionInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/entity/RoleInfo.class" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/entity/RoleInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/entity/UserInfo.class" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/entity/UserInfo.class" />
+      <change beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/util/MD5Util.class" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/com/iotch/util/MD5Util.class" />
+      <change beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/jdbc.druid.properties" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/jdbc.druid.properties" />
+      <change beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/mapper/UserInfoDao.xml" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/mapper/UserInfoDao.xml" />
+      <change beforePath="$PROJECT_DIR$/target/imis/WEB-INF/classes/spring/spring-dao.xml" afterPath="$PROJECT_DIR$/target/imis/WEB-INF/classes/spring/spring-dao.xml" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/iotch/BaseTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/iotch/BaseTest.class" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/iotch/dao/UserInfoDaoTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/iotch/dao/UserInfoDaoTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -90,66 +192,128 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="imis" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="spring-redis.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
+      <file leaf-file-name="MonitorHistoryDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MonitorHistoryDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MonitorHistory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/MonitorHistory.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="72" column="85" lean-forward="false" selection-start-line="72" selection-start-column="72" selection-end-line="72" selection-end-column="85" />
+              <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DevInfoDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/DevInfoDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PayTypeDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PayTypeDao.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="513">
+              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
               <folding>
-                <element signature="e#619#637#0" expanded="true" />
-                <element signature="e#711#730#0" expanded="true" />
-                <element signature="e#805#829#0" expanded="true" />
-                <element signature="e#936#973#0" expanded="true" />
-                <element signature="e#1086#1119#0" expanded="true" />
-                <element signature="e#1234#1274#0" expanded="true" />
-                <element signature="e#1377#1400#0" expanded="true" />
-                <element signature="e#1485#1509#0" expanded="true" />
-                <element signature="e#3712#3727#0" expanded="true" />
-                <element signature="e#3814#3833#0" expanded="true" />
-                <element signature="e#3906#3924#0" expanded="true" />
+                <marker date="1529929802484" expanded="true" signature="286:481" ph="INSERT INTO tt_pay_type... " />
+                <marker date="1529929802484" expanded="true" signature="575:635" ph="DELETE FROM tt_pay_type... " />
+                <marker date="1529929802484" expanded="true" signature="729:747" ph="UPDATE tt_pay_type... " />
+                <marker date="1529929802484" expanded="true" signature="729:1118" ph="UPDATE tt_pay_type... " />
+                <marker date="1529929802484" expanded="true" signature="1208:1233" ph="SELECT * FRO... tt_pay_type" />
+                <marker date="1529929802484" expanded="true" signature="1347:1409" ph="SELECT * FRO... tt_pay_type" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spring-service.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
+      <file leaf-file-name="jdbc.druid.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.druid.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MenuInfoDaoTest.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/iotch/dao/MenuInfoDaoTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1106">
+              <caret line="62" column="78" lean-forward="false" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OperatorsInfoDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OperatorsInfoDao.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
+              <folding>
+                <marker date="1529922386437" expanded="true" signature="322:381" ph="SELECT * FRO... tt_operators_info" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="DevInfoDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DevInfoDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="224">
-              <caret line="193" column="20" lean-forward="false" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
-              <folding />
+            <state relative-caret-position="247">
+              <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+              <folding>
+                <marker date="1529998694020" expanded="true" signature="525:638" ph="INSERT INTO tt_module_info" />
+                <marker date="1529998694020" expanded="true" signature="732:792" ph="DELETE FROM tt_module_info... " />
+                <marker date="1529998694020" expanded="true" signature="886:1087" ph="UPDATE tt_module_info... " />
+                <marker date="1529998694020" expanded="true" signature="1162:1190" ph="SELECT * FRO... tt_module_info" />
+                <marker date="1529998694020" expanded="true" signature="1289:1351" ph="SELECT * FRO... tt_module_info" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redis.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
+      <file leaf-file-name="AuthorityInfoDao.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AuthorityInfoDao.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="spring-dao.xml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-608">
-              <caret line="10" column="71" lean-forward="false" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
-              <folding />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1529924716507" expanded="true" signature="947:1006" ph="SELECT * FRO... tt_aisle_info" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -183,57 +347,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/UserInfoDao.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/iotch/BaseTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/util/TimeStrIFNULL.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/iotch/dao/UserInfoDaoTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserInfoDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/main.html" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/html/home.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/enums/UserInfoEnum.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/enums/entitykeys/PayInfoKeys.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dto/UserInfoExection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/BusinessFormatDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevActiveCodeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevAisleDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevModuleStatusDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevPayTypeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevPromotionDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevTypeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/FactoryInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/OperatorsInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/OprProductCategoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/OprProductDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/ProductCategoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/ProductImgDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/ProductInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/PromotionInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/RegionInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/RoleAuthorityDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/RoleInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/RoleMenuDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/TransactionInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/PayType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/UserInfo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/PayTypeDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/PayTypeDao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iotch/dao/PayTypeDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/AisleInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/AuthorityInfoDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/MenuInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/service/UserInfoService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/service/impl/UserInfoServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/UserInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iotch/dao/UserInfoDaoTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/MenuInfoDao.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mapper/MenuInfoDao.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/interceptor/authority/aspect/AuthAspect.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/mybatis-config.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/util/DESUtil.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/cache/JedisPoolWriper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/UserInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleMenu.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleAuthority.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/RegionInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/OperatorsInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/AuthorityInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/AisleInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/BusinessFormat.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevActiveCode.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevAisle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/FactoryInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/MonitorInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/PromotionInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/PayType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevPayType.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/DevPromotion.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/MonitorHistory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/OprProduct.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/OprProductCategory.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductInfo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductImg.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iotch/cache/JedisUtil.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/iotch/cache/JedisUtilTest.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/redis.properties" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iotch/dao/MenuInfoDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ModuleInfoDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/ModuleInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iotch/dao/ModuleInfoDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/ModuleFaultDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/ModuleFaultDao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iotch/dao/ModuleFaultDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/MonitorHistoryDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/MonitorInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/MonitorInfoDao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iotch/dao/MonitorInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/UserInfoDao.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/iotch/dao/MonitorInfoDaoTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iotch/dao/DevInfoDao.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/DevInfoDao.xml" />
+        <option value="$PROJECT_DIR$/src/main/resources/jdbc.druid.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/mapper/MonitorHistoryDao.xml" />
       </list>
     </option>
   </component>
@@ -257,11 +421,17 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand />
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="198" />
+    <option name="y" value="66" />
     <option name="width" value="1456" />
-    <option name="height" value="886" />
+    <option name="height" value="913" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -279,7 +449,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -327,15 +496,30 @@
               <item name="imis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="iotch" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imis" type="b2602c69:ProjectViewProjectNode" />
               <item name="imis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="spring" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="iotch" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="imis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="imis" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="iotch" type="462c0819:PsiDirectoryNode" />
+              <item name="entity" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="imis" type="b2602c69:ProjectViewProjectNode" />
@@ -375,28 +559,35 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="iotch" type="462c0819:PsiDirectoryNode" />
-              <item name="cache" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../myo2o" />
+    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\JetBrains\IDEAWorkSpace\imis\src\main\resources\mapper" />
       <recent name="E:\JetBrains\IDEAWorkSpace\imis\src\main\resources\spring" />
-      <recent name="E:\JetBrains\IDEAWorkSpace\imis\src\main\resources" />
+      <recent name="E:\JetBrains\IDEAWorkSpace\imis\src\main\java\com\iotch" />
+      <recent name="E:\JetBrains\IDEAWorkSpace\imis" />
+      <recent name="E:\JetBrains\IDEAWorkSpace\imis\src\main\java\com\iotch\interceptor" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.iotch.dto" />
@@ -405,12 +596,9 @@
       <recent name="com.iotch" />
       <recent name="com.iotch.dao" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\JetBrains\IDEAWorkSpace\imis\src\main\resources\spring" />
-      <recent name="E:\JetBrains\IDEAWorkSpace\imis\src\main\java\com\iotch" />
-      <recent name="E:\JetBrains\IDEAWorkSpace\imis" />
-      <recent name="E:\JetBrains\IDEAWorkSpace\imis\src\main\resources\mapper" />
-      <recent name="E:\JetBrains\IDEAWorkSpace\imis\src\main\java\com\iotch\interceptor" />
+      <recent name="E:\JetBrains\IDEAWorkSpace\imis\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -425,120 +613,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.JedisUtilTest.testRedis">
-    <configuration name="DESUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.iotch.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.iotch.util.DESUtil" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="imis" />
-      <envs />
-    </configuration>
-    <configuration name="JedisUtilTest.testRedis" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.iotch.cache.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="imis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.iotch.cache" />
-      <option name="MAIN_CLASS_NAME" value="com.iotch.cache.JedisUtilTest" />
-      <option name="METHOD_NAME" value="testRedis" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" value="" />
-      <option name="WORKING_DIRECTORY" value="file://$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="MD5Util" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.iotch.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.iotch.util.MD5Util" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="imis" />
-      <envs />
-    </configuration>
-    <configuration name="UserInfoDaoTest.selectByUserNameTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.iotch.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="imis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.iotch.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.iotch.dao.UserInfoDaoTest" />
-      <option name="METHOD_NAME" value="selectByUserNameTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="UserInfoDaoTest.selectMatchEntityTest" type="JUnit" factoryName="JUnit" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.iotch.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="imis" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.iotch.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.iotch.dao.UserInfoDaoTest" />
-      <option name="METHOD_NAME" value="selectMatchEntityTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
+  <component name="RunManager" selected="JUnit.MenuInfoDaoTest.selectSubListByParentCodeTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -560,6 +635,131 @@
       <module name="" />
       <envs />
     </configuration>
+    <configuration name="MenuInfoDaoTest.selectSubListByParentCodeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.iotch.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="imis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.iotch.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.iotch.dao.MenuInfoDaoTest" />
+      <option name="METHOD_NAME" value="selectSubListByParentCodeTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MonitorInfoDaoTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.iotch.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="imis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.iotch.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.iotch.dao.MonitorInfoDaoTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MonitorInfoDaoTest.selectAllTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.iotch.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="imis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.iotch.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.iotch.dao.MonitorInfoDaoTest" />
+      <option name="METHOD_NAME" value="selectAllTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MonitorInfoDaoTest.selectByIdTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.iotch.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="imis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.iotch.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.iotch.dao.MonitorInfoDaoTest" />
+      <option name="METHOD_NAME" value="selectByIdTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
+    <configuration name="MonitorInfoDaoTest.selectMatchEntityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.iotch.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="imis" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.iotch.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.iotch.dao.MonitorInfoDaoTest" />
+      <option name="METHOD_NAME" value="selectMatchEntityTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -579,12 +779,6 @@
       </option>
       <envs />
       <patterns />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
       <option name="USE_SOCKET_TRANSPORT" value="true" />
@@ -694,21 +888,27 @@
         </option>
       </method>
     </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <predefined_log_file id="idea.log" enabled="true" />
+    </configuration>
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.imis" />
-      <item index="1" class="java.lang.String" itemvalue="Application.MD5Util" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DESUtil" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.UserInfoDaoTest.selectMatchEntityTest" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.UserInfoDaoTest.selectByUserNameTest" />
-      <item index="5" class="java.lang.String" itemvalue="JUnit.JedisUtilTest.testRedis" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.MonitorInfoDaoTest.insertTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.MonitorInfoDaoTest.selectAllTest" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.MonitorInfoDaoTest.selectByIdTest" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.MonitorInfoDaoTest.selectMatchEntityTest" />
+      <item index="5" class="java.lang.String" itemvalue="JUnit.MenuInfoDaoTest.selectSubListByParentCodeTest" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.JedisUtilTest.testRedis" />
-        <item index="1" class="java.lang.String" itemvalue="Application.DESUtil" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.UserInfoDaoTest.selectByUserNameTest" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MD5Util" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.UserInfoDaoTest.selectMatchEntityTest" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.MenuInfoDaoTest.selectSubListByParentCodeTest" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.MonitorInfoDaoTest.selectMatchEntityTest" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.MonitorInfoDaoTest.selectByIdTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.MonitorInfoDaoTest.selectAllTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.MonitorInfoDaoTest.insertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -716,7 +916,7 @@
     <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration useDefault="false">E:\SVN</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -732,7 +932,14 @@
       <workItem from="1529540696735" duration="4331000" />
       <workItem from="1529627259909" duration="1133000" />
       <workItem from="1529628568400" duration="20973000" />
-      <workItem from="1529680072772" duration="7949000" />
+      <workItem from="1529680072772" duration="8681000" />
+      <workItem from="1529847959317" duration="9867000" />
+      <workItem from="1529887547178" duration="36532000" />
+      <workItem from="1529972427563" duration="401000" />
+      <workItem from="1529972855256" duration="201000" />
+      <workItem from="1529973663376" duration="17825000" />
+      <workItem from="1529996557241" duration="6714000" />
+      <workItem from="1530007324829" duration="1417000" />
     </task>
     <task id="LOCAL-00001" summary="初始提交项目天瞳商城后台">
       <created>1529062476786</created>
@@ -769,66 +976,95 @@
       <option name="project" value="LOCAL" />
       <updated>1529667938848</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="redisTemplate">
+      <created>1529691445460</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1529691445460</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="JedisUtilTest_testRedis - 2018.06.22 at 23h 19m 41s.xml">
-      <configuration name="JedisUtilTest.testRedis" configurationId="JUnit" />
+    <history-entry file="MenuInfoDaoTest_selectSubListByParentCodeTest - 2018.06.26 at 16h 16m 14s.xml">
+      <configuration name="MenuInfoDaoTest.selectSubListByParentCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="JedisUtilTest_testRedis - 2018.06.22 at 23h 51m 56s.xml">
-      <configuration name="JedisUtilTest.testRedis" configurationId="JUnit" />
+    <history-entry file="MenuInfoDaoTest_selectSubListByParentCodeTest - 2018.06.26 at 16h 17m 00s.xml">
+      <configuration name="MenuInfoDaoTest.selectSubListByParentCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoDaoTest_selectByUserNameTest - 2018.06.19 at 11h 09m 46s.xml">
-      <configuration name="UserInfoDaoTest.selectByUserNameTest" configurationId="JUnit" />
+    <history-entry file="MenuInfoDaoTest_selectSubListByParentCodeTest - 2018.06.26 at 16h 17m 26s.xml">
+      <configuration name="MenuInfoDaoTest.selectSubListByParentCodeTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoDaoTest_selectMatchEntityTest - 2018.06.15 at 11h 58m 41s.xml">
-      <configuration name="UserInfoDaoTest.selectMatchEntityTest" configurationId="JUnit" />
+    <history-entry file="MonitorInfoDaoTest_deleteByPK - 2018.06.26 at 15h 15m 32s.xml">
+      <configuration name="MonitorInfoDaoTest.deleteByPK" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoDaoTest_selectMatchEntityTest - 2018.06.15 at 12h 03m 12s.xml">
-      <configuration name="UserInfoDaoTest.selectMatchEntityTest" configurationId="JUnit" />
+    <history-entry file="MonitorInfoDaoTest_insertTest - 2018.06.26 at 15h 18m 05s.xml">
+      <configuration name="MonitorInfoDaoTest.insertTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoDaoTest_selectMatchEntityTest - 2018.06.15 at 12h 27m 15s.xml">
-      <configuration name="UserInfoDaoTest.selectMatchEntityTest" configurationId="JUnit" />
+    <history-entry file="MonitorInfoDaoTest_selectAllTest - 2018.06.26 at 15h 18m 12s.xml">
+      <configuration name="MonitorInfoDaoTest.selectAllTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MonitorInfoDaoTest_selectByIdTest - 2018.06.26 at 15h 20m 31s.xml">
+      <configuration name="MonitorInfoDaoTest.selectByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MonitorInfoDaoTest_selectByIdTest - 2018.06.26 at 15h 20m 53s.xml">
+      <configuration name="MonitorInfoDaoTest.selectByIdTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MonitorInfoDaoTest_selectMatchEntityTest - 2018.06.26 at 15h 22m 50s.xml">
+      <configuration name="MonitorInfoDaoTest.selectMatchEntityTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MonitorInfoDaoTest_updateByPKTest - 2018.06.26 at 15h 13m 45s.xml">
+      <configuration name="MonitorInfoDaoTest.updateByPKTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82280000" />
+    <option name="totallyTimeSpent" value="155969000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="886" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2132753" sideWeight="0.4978678" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0996119" sideWeight="0.11597222" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2132753" sideWeight="0.5021322" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295129" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6539278" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0996119" sideWeight="0.8840278" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51875806" sideWeight="0.23125" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18680556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.35953608" sideWeight="0.8438395" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51875806" sideWeight="0.23125" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16577825" sideWeight="0.49532712" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2170487" sideWeight="0.5046729" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2170487" sideWeight="0.5046729" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3450106" sideWeight="0.49375" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25902337" sideWeight="0.49791667" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -842,229 +1078,547 @@
     <MESSAGE value="创建数据库,初步设计201806201734" />
     <MESSAGE value="创建项目实体类" />
     <MESSAGE value="Merge branch 'master' of https://github.com/acelance/imis&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/iotch/cache/JedisPoolWriper.java&#10;#&#9;src/main/java/com/iotch/cache/JedisUtil.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/acelance/imis&#10;&#10;# Conflicts:&#10;#&#9;src/main/java/com/iotch/cache/JedisPoolWriper.java&#10;#&#9;src/main/java/com/iotch/cache/JedisUtil.java" />
+    <MESSAGE value="redisTemplate" />
+    <option name="LAST_COMMIT_MESSAGE" value="redisTemplate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="1" />
+      <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/web/W.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/service/impl/UserInfoServiceImpl.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/MenuInfoDao.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserInfoDao.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-3-mapper.dtd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/TransactionInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="71" lean-forward="false" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/AuthorityInfoDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="25" column="82" lean-forward="true" selection-start-line="25" selection-start-column="82" selection-end-line="25" selection-end-column="82" />
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MenuInfoDao.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/sqlprovider/UserInfoProvider.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/sqlprovider/PayInfoProvider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="35" column="56" lean-forward="true" selection-start-line="35" selection-start-column="56" selection-end-line="35" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/interceptor/authority/annotation/AuthValidate.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/interceptor/authority/aspect/AuthAspect.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="66" column="40" lean-forward="false" selection-start-line="66" selection-start-column="30" selection-end-line="66" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/iotchmall.sql" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/util/DESUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="589">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/iotch/dao/UserInfoDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="20" column="29" lean-forward="false" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1748">
-          <caret line="92" column="41" lean-forward="true" selection-start-line="92" selection-start-column="41" selection-end-line="92" selection-end-column="41" />
+        <state relative-caret-position="1121">
+          <caret line="79" column="43" lean-forward="true" selection-start-line="79" selection-start-column="43" selection-end-line="79" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/mybatis-config.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="722">
-          <caret line="38" column="42" lean-forward="true" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
+        <state relative-caret-position="-429">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="19" column="31" lean-forward="false" selection-start-line="19" selection-start-column="19" selection-end-line="19" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/OperatorsInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/UserInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-627">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleMenu.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleAuthority.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/RegionInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/enums/entitykeys/PayInfoKeys.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="27" column="0" lean-forward="true" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+        <state relative-caret-position="38">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/OperatorsInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/MenuInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/AuthorityInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/DevActiveCode.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/AisleInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/DevAisle.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/DevType.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/FactoryInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/BusinessFormat.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/RoleInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/UserInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="15" column="38" lean-forward="true" selection-start-line="15" selection-start-column="38" selection-end-line="15" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iotch/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/DevInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/PromotionInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/MonitorInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/DevPayType.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/PayType.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/DevPromotion.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/MonitorHistory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductCategory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/UserInfo.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/PayTypeDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="37" lean-forward="true" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+        <state relative-caret-position="76">
+          <caret line="9" column="17" lean-forward="false" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/OprProductCategory.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductInfo.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/OprProduct.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/ProductImg.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/OperatorsInfoDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="298">
-          <caret line="43" column="19" lean-forward="true" selection-start-line="43" selection-start-column="19" selection-end-line="43" selection-end-column="19" />
+        <state relative-caret-position="76">
+          <caret line="8" column="67" lean-forward="false" selection-start-line="8" selection-start-column="67" selection-end-line="8" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/DevAisleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/DevModuleStatusDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="71" lean-forward="false" selection-start-line="8" selection-start-column="71" selection-end-line="8" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/AisleInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="14" column="59" lean-forward="false" selection-start-line="14" selection-start-column="59" selection-end-line="14" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AisleInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
-            <element signature="e#619#637#0" expanded="true" />
-            <element signature="e#711#730#0" expanded="true" />
-            <element signature="e#805#829#0" expanded="true" />
-            <element signature="e#936#973#0" expanded="true" />
-            <element signature="e#1086#1119#0" expanded="true" />
-            <element signature="e#1234#1274#0" expanded="true" />
-            <element signature="e#1377#1400#0" expanded="true" />
-            <element signature="e#1485#1509#0" expanded="true" />
-            <element signature="e#3712#3727#0" expanded="true" />
-            <element signature="e#3814#3833#0" expanded="true" />
-            <element signature="e#3906#3924#0" expanded="true" />
+            <marker date="1529923491814" expanded="true" signature="316:375" ph="SELECT * FRO... tt_aisle_info" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/cache/JedisPoolWriper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/MenuInfoDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="25" column="5" lean-forward="false" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="190">
+          <caret line="14" column="36" lean-forward="false" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/MenuInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="35" column="30" lean-forward="true" selection-start-line="35" selection-start-column="30" selection-end-line="35" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/cache/JedisUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MenuInfoDao.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="65" column="5" lean-forward="false" selection-start-line="65" selection-start-column="5" selection-end-line="65" selection-end-column="5" />
+        <state relative-caret-position="327">
+          <caret line="78" column="41" lean-forward="false" selection-start-line="78" selection-start-column="16" selection-end-line="78" selection-end-column="41" />
+          <folding>
+            <marker date="1529982306284" expanded="true" signature="1005:1262" ph="INSERT INTO tt_menu_info... " />
+            <marker date="1529982306284" expanded="true" signature="1357:1411" ph="DELETE FROM tt_menu_info... " />
+            <marker date="1529982306284" expanded="true" signature="1506:2136" ph="UPDATE tt_user_info... " />
+            <marker date="1529982306284" expanded="true" signature="2212:2238" ph="SELECT * FRO... tt_menu_info" />
+            <marker date="1529982306284" expanded="true" signature="2338:2394" ph="SELECT * FRO... tt_menu_info" />
+            <marker date="1529982306284" expanded="true" signature="3414:3788" ph="SELECT * FRO... tt_menu_info" />
+            <marker date="1529982306284" expanded="true" signature="3481:3694" ph="SELECT rm.Me... tt_role_menu" />
+            <marker date="1529982306284" expanded="true" signature="3895:4273" ph="SELECT * FRO... tt_menu_info" />
+            <marker date="1529982306284" expanded="true" signature="3962:4170" ph="SELECT rm.Me... tt_role_menu" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ModuleInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" lean-forward="true" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <marker date="1529984651677" expanded="true" signature="534:647" ph="INSERT INTO tt_module_info" />
+            <marker date="1529984651677" expanded="true" signature="744:804" ph="DELETE FROM tt_module_info... " />
+            <marker date="1529984651677" expanded="true" signature="901:1102" ph="UPDATE tt_user_info... " />
+            <marker date="1529984651677" expanded="true" signature="1177:1205" ph="SELECT * FRO... tt_module_info" />
+            <marker date="1529984651677" expanded="true" signature="1304:1366" ph="SELECT * FRO... tt_module_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iotch/dao/UserInfoDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-762">
+          <caret line="29" column="43" lean-forward="false" selection-start-line="29" selection-start-column="43" selection-end-line="29" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/iotch/cache/JedisUtilTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/ModuleInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/ModuleInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="29" lean-forward="false" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/ModuleFault.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="31" lean-forward="false" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/ModuleFaultDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="48" column="9" lean-forward="true" selection-start-line="48" selection-start-column="9" selection-end-line="48" selection-end-column="9" />
+          <folding>
+            <marker date="1529993055433" expanded="true" signature="701:862" ph="INSERT INTO tt_user_info" />
+            <marker date="1529993055433" expanded="true" signature="960:1026" ph="DELETE FROM tt_user_info... " />
+            <marker date="1529993055433" expanded="true" signature="1124:1423" ph="UPDATE tt_user_info... " />
+            <marker date="1529993055433" expanded="true" signature="1499:1528" ph="SELECT * FRO... tt_user_info" />
+            <marker date="1529993055433" expanded="true" signature="1628:1696" ph="SELECT * FRO... tt_user_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/ModuleFaultDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="14" column="43" lean-forward="false" selection-start-line="14" selection-start-column="43" selection-end-line="14" selection-end-column="43" />
+          <caret line="9" column="38" lean-forward="false" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iotch/dao/ModuleFaultDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1311">
+          <caret line="74" column="0" lean-forward="true" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/BusinessFormatDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/AuthorityInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/AisleInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="12" column="13" lean-forward="false" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/DevAisle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/MonitorInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="23" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MonitorInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="893">
+          <caret line="47" column="0" lean-forward="true" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding>
+            <marker date="1529995522620" expanded="true" signature="613:744" ph="INSERT INTO tt_monitor_info" />
+            <marker date="1529995522620" expanded="true" signature="842:905" ph="DELETE FROM tt_monitor_info... " />
+            <marker date="1529995522620" expanded="true" signature="1003:1265" ph="UPDATE tt_monitor_info... " />
+            <marker date="1529995522620" expanded="true" signature="1344:1373" ph="SELECT * FRO... tt_monitor_info" />
+            <marker date="1529995522620" expanded="true" signature="1476:1541" ph="SELECT * FRO... tt_monitor_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/MonitorInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iotch/dao/PayTypeDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/RoleInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1529922101769" expanded="true" signature="314:370" ph="SELECT * FRO... tt_role_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/UserInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="589">
+          <caret line="31" column="39" lean-forward="false" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+          <folding>
+            <marker date="1529979767399" expanded="true" signature="1648:2068" ph="INSERT INTO tt_user_info" />
+            <marker date="1529979767399" expanded="true" signature="2163:2217" ph="DELETE FROM tt_user_info... " />
+            <marker date="1529979767399" expanded="true" signature="2312:3416" ph="UPDATE tt_user_info... " />
+            <marker date="1529979767399" expanded="true" signature="3492:3518" ph="SELECT * FRO... tt_user_info" />
+            <marker date="1529979767399" expanded="true" signature="3618:3674" ph="SELECT * FRO... tt_user_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iotch/dao/ModuleInfoDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="60" column="20" lean-forward="false" selection-start-line="60" selection-start-column="8" selection-end-line="60" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-web.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dto/UserInfoExection.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-152">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state relative-caret-position="76">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iotch/dao/MonitorInfoDaoTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="193" column="20" lean-forward="false" selection-start-line="193" selection-start-column="20" selection-end-line="193" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-service.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/redis.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="26" column="24" lean-forward="false" selection-start-line="26" selection-start-column="24" selection-end-line="26" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-redis.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="72" column="85" lean-forward="false" selection-start-line="72" selection-start-column="72" selection-end-line="72" selection-end-column="85" />
+        <state relative-caret-position="400">
+          <caret line="69" column="5" lean-forward="true" selection-start-line="69" selection-start-column="5" selection-end-line="69" selection-end-column="5" />
           <folding>
-            <element signature="e#619#637#0" expanded="true" />
-            <element signature="e#711#730#0" expanded="true" />
-            <element signature="e#805#829#0" expanded="true" />
-            <element signature="e#936#973#0" expanded="true" />
-            <element signature="e#1086#1119#0" expanded="true" />
-            <element signature="e#1234#1274#0" expanded="true" />
-            <element signature="e#1377#1400#0" expanded="true" />
-            <element signature="e#1485#1509#0" expanded="true" />
-            <element signature="e#3712#3727#0" expanded="true" />
-            <element signature="e#3814#3833#0" expanded="true" />
-            <element signature="e#3906#3924#0" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring/spring-dao.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/MonitorHistoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-608">
-          <caret line="10" column="71" lean-forward="false" selection-start-line="10" selection-start-column="71" selection-end-line="10" selection-end-column="71" />
+        <state relative-caret-position="76">
+          <caret line="8" column="17" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/entity/MonitorHistory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="10" column="27" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iotch/dao/DevInfoDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/DevInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+          <folding>
+            <marker date="1529998694020" expanded="true" signature="525:638" ph="INSERT INTO tt_module_info" />
+            <marker date="1529998694020" expanded="true" signature="732:792" ph="DELETE FROM tt_module_info... " />
+            <marker date="1529998694020" expanded="true" signature="886:1087" ph="UPDATE tt_module_info... " />
+            <marker date="1529998694020" expanded="true" signature="1162:1190" ph="SELECT * FRO... tt_module_info" />
+            <marker date="1529998694020" expanded="true" signature="1289:1351" ph="SELECT * FRO... tt_module_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/AuthorityInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1529924716507" expanded="true" signature="947:1006" ph="SELECT * FRO... tt_aisle_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/OperatorsInfoDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1529922386437" expanded="true" signature="322:381" ph="SELECT * FRO... tt_operators_info" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/PayTypeDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="513">
+          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
+          <folding>
+            <marker date="1529929802484" expanded="true" signature="286:481" ph="INSERT INTO tt_pay_type... " />
+            <marker date="1529929802484" expanded="true" signature="575:635" ph="DELETE FROM tt_pay_type... " />
+            <marker date="1529929802484" expanded="true" signature="729:747" ph="UPDATE tt_pay_type... " />
+            <marker date="1529929802484" expanded="true" signature="729:1118" ph="UPDATE tt_pay_type... " />
+            <marker date="1529929802484" expanded="true" signature="1208:1233" ph="SELECT * FRO... tt_pay_type" />
+            <marker date="1529929802484" expanded="true" signature="1347:1409" ph="SELECT * FRO... tt_pay_type" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/jdbc.druid.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/MonitorHistoryDao.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/iotch/dao/MenuInfoDaoTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1106">
+          <caret line="62" column="78" lean-forward="false" selection-start-line="62" selection-start-column="78" selection-end-line="62" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>imis:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>imis</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: asm:asm:1.5.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>

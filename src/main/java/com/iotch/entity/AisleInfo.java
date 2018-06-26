@@ -1,5 +1,7 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
+
 /**
  /**
  * 货道信息类
@@ -8,7 +10,7 @@ package com.iotch.entity;
  *      2.相同型号设备,可能具有多种货道
  * 基于以上原因,将其分离独立,方便与设备任意组合
  */
-public class AisleInfo {
+public class AisleInfo implements Serializable {
     private String aisleCode;//货道编码
     private String aisleName;//该种货道的名称
     private String aisleCapacity;//货单容量

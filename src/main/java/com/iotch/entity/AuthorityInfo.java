@@ -1,6 +1,8 @@
 package com.iotch.entity;
 
-public class AuthorityInfo {
+import java.io.Serializable;
+
+public class AuthorityInfo implements Serializable {
     private String authCode;//页面中的权限编码
     private String authName;//页面中的权限名
     private MenuInfo menuInfo;//所属菜单信息

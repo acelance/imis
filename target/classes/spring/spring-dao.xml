@@ -72,4 +72,17 @@
         <!--给出需要扫描Dao接口包-->
         <property name="basePackage" value="com.iotch.dao"/>
     </bean>
+
+    <!--5. 配置通用Mapper(则上面org.mybatis.spring.mapper.MapperScannerConfigurer不需配置,因为tk.mybatis.spring.mapper.MapperScannerConfigurer继续了上面Bean) -->
+    <!--<bean class="tk.mybatis.spring.mapper.MapperScannerConfigurer">
+        &lt;!&ndash;注入SQLFactory&ndash;&gt;
+        <property name="sqlSessionFactoryBeanName" value="sqlSessionFactory"/>
+        &lt;!&ndash;给出需要扫描Dao接口包&ndash;&gt;
+        <property name="basePackage" value="com.iotch.dao"/>
+        <property name="properties">
+            <value>
+                mappers=tk.mybatis.mapper.common.Mapper,tk.mybatis.mapper.common.special.InsertListMapper
+            </value>
+        </property>
+    </bean>-->
 </beans>

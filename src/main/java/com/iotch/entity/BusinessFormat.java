@@ -1,5 +1,6 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
 import java.sql.Timestamp;
 
 /**
@@ -8,7 +9,7 @@ import java.sql.Timestamp;
  *      在本项目中该类指代自助设备的经营方式.
  *
  */
-public class BusinessFormat {
+public class BusinessFormat implements Serializable {
     private String formatCode;//业态信息编码
     private String formatName;//业态名称
     private Timestamp createTime;//创建时间

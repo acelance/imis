@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.iotch.dao.OperatorsInfoDao">
+
+    <select id="selectById" parameterType="String" resultType="com.iotch.entity.OperatorsInfo">
+        SELECT * FROM tt_operators_info where Opr_Code = #{oprCode}
+    </select>
+
+    <select id="selectMatchEntity" parameterType="com.iotch.entity.OperatorsInfo" resultType="com.iotch.entity.OperatorsInfo">
+
+    </select>
+
+</mapper>

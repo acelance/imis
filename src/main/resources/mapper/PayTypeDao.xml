@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.iotch.dao.PayTypeDao">
+
+    <insert id="insert" parameterType="com.iotch.entity.PayType">
+        INSERT INTO tt_pay_type
+        (Pay_Type_Code,Pay_Type_Name,Create_Time,Last_Edit_Time,Type_Note)
+        VALUES
+        (#{payTypeCode},#{payTypeName},#{createTime},#{lastEditTime},#{typeNote})
+    </insert>
+
+    <delete id="deleteByPK" parameterType="com.iotch.entity.PayType">
+        DELETE FROM tt_pay_type WHERE Pay_Type_Code = #{payTypeCode}
+    </delete>
+
+    <update id="updateByPK" parameterType="com.iotch.entity.PayType">
+        UPDATE tt_pay_type
+        <set>
+            <if test="payTypeName!=null">Pay_Type_Name = #{payTypeName}</if>
+            <if test="createTime!=null">Create_Time = #{createTime}</if>
+            <if test="lastEditTime!=null">Last_Edit_Time = #{lastEditTime}</if>
+            <if test="typeNote!=null">Type_Note = #{typeNote}</if>
+        </set>
+        WHERE Pay_Type_Code = #{payTypeCode}
+    </update>
+
+    <select id="selectAll" resultType="com.iotch.entity.PayType">
+        SELECT * FROM tt_pay_type
+    </select>
+
+    <select id="selectById" parameterType="String" resultType="com.iotch.entity.PayType">
+        SELECT * FROM tt_pay_type where Pay_Type_Code = #{payTypeCode}
+    </select>
+
+    <select id="selectMatchEntity" parameterType="com.iotch.entity.PayType" resultType="com.iotch.entity.PayType">
+        SELECT * FROM tt_pay_type
+        <trim prefix="WHERE" prefixOverrides="AND|OR">
+            <if test="payTypeCode!=null">AND Pay_Type_Code = #{payTypeCode}</if>
+            <if test="payTypeName!=null">AND Pay_Type_Name = #{payTypeName}</if>
+            <if test="createTime!=null">AND Create_Time = #{createTime}</if>
+            <if test="lastEditTime!=null">AND Last_Edit_Time = #{lastEditTime}</if>
+            <if test="typeNote!=null">AND Type_Note = #{typeNote}</if>
+        </trim>
+    </select>
+
+
+
+</mapper>

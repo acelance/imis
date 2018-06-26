@@ -1,9 +1,11 @@
 package com.iotch.entity;
 
+import java.io.Serializable;
+
 /**
  * 运营商商品分类配置
  */
-public class OprProductCategory {
+public class OprProductCategory implements Serializable {
     private ProductCategory productCategory;//商品分类信息
     private OperatorsInfo operatorsInfo;//运营商信息
     private OperatorsInfo superiorOpr;//上级运营商信息

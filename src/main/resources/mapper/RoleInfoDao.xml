@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+ <mapper namespace="com.iotch.dao.RoleInfoDao">
+
+
+
+    <select id="selectById" parameterType="String" resultType="com.iotch.entity.RoleInfo">
+        SELECT * FROM tt_role_info where Role_Code = #{roleCode}
+    </select>
+
+    <select id="selectMatchEntity" parameterType="com.iotch.entity.RoleInfo" resultType="com.iotch.entity.RoleInfo">
+
+    </select>
+
+</mapper>
